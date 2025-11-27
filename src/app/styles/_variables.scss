@@ -1,0 +1,19 @@
+$color-white: #ffffff;
+
+// Vaše primarne/akcentne boje
+$color-primary-dark: #AA2C2D;
+$color-primary-light: #B21F1F;
+
+// Osnovne boje teme (ako koristite SCSS umesto CSS varijabli)
+// Ako koristite CSS varijable u globals.css, ove možete izostaviti ili koristiti
+// za dodatnu SCSS logiku:
+$bg-light: #ffffff;
+$text-dark: #171717;
+$bg-dark: #0a0a0a;
+$text-light: #ededed;
+
+// Primarni Fontovi
+$font-sans-serif: Arial, Helvetica, sans-serif;
+
+// Bebas Neue (Google Fonts)
+$font-bebas: 'Bebas Neue', $font-sans-serif;
