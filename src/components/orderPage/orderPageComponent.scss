@@ -1,0 +1,50 @@
+@import '../../app/styles/variables';
+@import '../../app/styles/breakpoints';
+.orderPage-background {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('/images/orderpage.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px; 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.orderPage-background .card-container {
+    width: 100vw; 
+    box-sizing: border-box;
+    align-self: flex-start;
+    height: calc(100vh - 80px);
+    padding: 2rem 1rem; 
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap:5rem;
+    justify-content: center;
+    align-items: start; /* top-align rows so first row sits at the top */
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media #{$phone} {
+   .orderPage-background .card-container {
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: flex-start; /* top align so row starts at visible top */
+       /* make the container fill the screen under the navbar and scroll internally */
+       height: calc(100vh - 80px);
+       padding: 1.5rem 0.75rem;
+       overflow-y: auto;
+       overflow-x: hidden;
+       -webkit-overflow-scrolling: touch;
+   }
+   .orderPage-background{
+    background-image: url('/images/order-phone.png');
+    background-size: cover;
+    background-position: center;
+   }
+}

@@ -1,0 +1,33 @@
+@import '../../app/styles/variables';
+@import '../../app/styles/breakpoints';
+
+$red-gradient-start: #E02727;
+$red-gradient-middle: #B21F1F;
+$red-gradient-end: #7A1515;
+
+.button {
+  background-image: linear-gradient(
+    $red-gradient-start 6%,
+    $red-gradient-middle 37%,
+    $red-gradient-end 100%
+  );
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+      transform: translateY(-2px);
+      transition: all 0.3s ease;
+    }
+    @media #{$m-phone} {
+      width: 250px;
+      height: 80px;
+      font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,90 @@
+@import '../../app/styles/variables';
+@import '../../app/styles/breakpoints';
+.homePage-background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/startpage.png');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    overflow: hidden;
+    @media #{$phone} {
+        display: none !important; 
+    }
+}
+.homePage-left-side {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 10%;
+}
+    
+/* --- DESNA STRANA (Uklanjamo mobilni stil odavde) --- */
+.homePage-right-side {
+    display: block; 
+    background-image: url('/images/dots.svg'); 
+    background-size: 75%; 
+    background-position: right center; 
+    background-repeat: no-repeat;
+    margin-top: 8%;
+    margin-right: 5%;
+}
+
+/* --- Mobilni Kontejner --- */
+.homePage-mobile{
+    display: none; /* Podrazumevano sakriveno na desktopu/tabletu */
+    
+    @media #{$phone} {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/startpage.png');
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        .homePage-mobile-top-half{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 20%;
+            .homePage-title{
+                font-size: 3.5rem;
+                @media #{$m-phone} {
+                    font-size: 3rem;
+                }
+            }
+        }
+        .homePage-mobile-bottom-half{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 20%;
+            
+        }
+    }
+}
+
+/* --- Naslov (Stilizovanje) --- */
+.homePage-title {
+    font-family: var(--font-bebas), Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+    color: var(--foreground);
+    text-align: center; // Da bude centrirano na mobilnom
+    
+    // Smanjite font size na telefonu ako je prevelik
+    @media #{$phone} {
+        font-size: 4rem; 
+    }
+    @media #{$m-phone} {
+        font-size: 4rem; 
+    }
+    .homePage-title-highlight {
+        color: var(--color-highlight);
+    }
+}

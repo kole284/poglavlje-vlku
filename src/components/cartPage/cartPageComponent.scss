@@ -1,0 +1,187 @@
+@import '../../app/styles/variables';
+@import '../../app/styles/breakpoints';
+.cartPage-background{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('/images/orderpage.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px; 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.cartPage-container{
+    width: 80vw;; 
+    height: calc(90vh - 80px);
+    border-radius:15px ;
+    @media #{$phone} {
+        .cartPage-container{
+            width: 100vw;
+            height: calc(100vh - 80px); /* take remaining viewport below navbar */
+            padding: 1rem; /* smaller padding on phones */
+            border-radius: 0; /* full-bleed card on phone */
+            grid-template-rows:1fr 1fr; /* header, items, summary */
+            gap: 1rem;
+        }
+
+        .left-section{
+            grid-template-rows: auto 1fr; /* header + items */
+            gap: 0.5rem;
+        }
+
+        .text-container{
+            font-size: 1.6rem; /* smaller title on phones */
+            padding: 0 0.5rem;
+        }
+
+        .items-container{
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        /* Put the right section below items and make full width */
+        .right-section{
+            width: 100%;
+            padding: 0.75rem 0;
+            display: flex;
+            justify-content: center;
+        }
+        .info {
+            
+        }
+    }
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    -webkit-overflow-scrolling: touch;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+}
+.left-section{
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+    gap: 1.5rem;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.text-container{
+    width: 100%;
+    color: white;
+    font-size: 3rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .cart{
+        padding-left: 1rem;
+    }
+    .price{
+        padding-right: 1rem;
+        .price-highlight{
+            color: $color-primary-light;
+        }
+    }
+}
+.items-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* no spacing between cards */
+    align-items: stretch; /* cards fill container width */
+    background-color: transparent; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    align-items: center;
+    .info{
+        background-color: rgba($color: #000000, $alpha: 0.6);
+        border-radius: 10px;
+        width: 80%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        .costs{
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 2.25rem;
+            padding-left: 3%;
+        }
+        .summary{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            .total{
+                padding-left: 3%;
+            }
+            .button{
+                scale:0.6;
+            }
+        }
+    }
+}
+
+/* Ensure the phone-specific layout is applied after the base rules (placed at file end) */
+@media #{$phone} {
+    .cartPage-container{
+        width: 100vw;
+        height: calc(100vh - 80px);
+        padding: 1rem;
+        border-radius: 0;
+        grid-template-columns: 1fr;
+        /* give the items area most of the height on phones */
+        grid-template-rows: auto 8fr 2fr; /* header : items : summary */
+        gap: 1rem;
+    }
+
+    .left-section{
+        grid-template-rows: auto 1fr;
+        gap: 0.5rem;
+    }
+
+    .text-container{
+        font-size: 1.6rem;
+        padding: 0 0.5rem;
+    }
+
+    .items-container{
+        max-height: calc(100vh - 80px - 120px);
+        overflow-y: auto;
+    }
+
+    .right-section{
+        grid-column: 1 / -1;
+        width: 100%;
+        padding: 0.5rem 0; /* smaller padding on phones */
+        display: flex;
+        justify-content: center;
+    }
+
+    /* shrink right-section info content so items take priority */
+    .right-section .info {
+        width: 95%;
+    }
+    .right-section .info .costs{
+        font-size: 1.5rem;
+        padding-left: 2%;
+    }
+    .right-section .info .summary{
+        font-size: 2rem;
+    }
+    .right-section .info .summary .button{
+        scale: 0.6;
+    }
+}

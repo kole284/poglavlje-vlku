@@ -1,0 +1,55 @@
+@import '../../app/styles/variables';
+@import '../../app/styles/breakpoints';
+
+// Pretpostavimo da je $color-primary-light definisana u vašim varijablama
+$black-gradient-start: #080707;
+$black-gradient-middle: #252525;
+$black-gradient-end: #292929;
+
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    $black-gradient-start 0%,
+    $black-gradient-middle 68%,
+    $black-gradient-end 100%
+  );
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 80px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem; 
+    transition: color 0.3s ease;
+  }
+  
+  .active-link {
+    color: $color-primary-light; 
+  }
+  .logo {
+    position: absolute;
+    left: 0;
+    margin-left: 1%;
+  }
+  .cart-link {
+    position: absolute;
+    right: 0;
+    margin-right: 1%;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+  }
+  .cart {
+    /* image inside link — let it size naturally */
+  }
+}
+@media #{$phone} {
+    .navbar{
+        display: none;
+    }
+}
