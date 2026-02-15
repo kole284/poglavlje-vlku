@@ -1,0 +1,88 @@
+@import '../../app/styles/variables';
+@import '../../app/styles/breakpoints';
+
+.book-card-mobile {
+    width: 95vw;
+    max-width: 420px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    color: #fff;
+    border-radius: 12px;
+    height: calc(100vh - 120px);
+}
+
+.book-card-mobile .image-mobile {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-card-mobile .image-mobile img,
+.book-card-mobile .image-mobile {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.book-card-mobile .text-mobile {
+    flex: 1 1 auto;
+    overflow: auto;
+    padding: 0 0.25rem;
+}
+
+.book-card-mobile .title {
+    margin: 0 0 0.25rem 0;
+    font-size: 2rem;
+}
+
+.book-card-mobile .author {
+    margin: 0 0 0.5rem 0;
+    color: $color-primary-dark;
+    font-size: 1.75rem;
+}
+
+.book-card-mobile .description-mobile {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: #eee;
+    margin: 0.25rem 0;
+}
+
+.book-card-mobile .price {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    .price-highlight{
+        color:$color-primary-light;
+    }
+}
+
+.book-card-mobile .action-mobile {
+    flex: 0 0 auto;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    .button{
+        scale:0.8;
+    }
+}
+
+.book-card-mobile .actions-right {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+    .book-card-mobile { max-width: 360px; }
+}

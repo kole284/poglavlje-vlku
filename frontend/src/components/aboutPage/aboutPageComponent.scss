@@ -1,0 +1,195 @@
+@import '../../app/styles/variables';
+@import '../../app/styles/breakpoints';
+
+// 💡 Uklanjamo display: none; za default/desktop stil
+.about-phone-container{
+    display: none; 
+}
+
+.about-background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/aboutpage.png');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    overflow: hidden;
+    @media #{$phone} {
+        display: none !important; 
+    }
+}
+
+// --- LEVA STRANA (Desktop) ---
+.about-left-side {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-left: 5%; 
+    padding-right: 5%; 
+    
+    // 💡 Stil za tekst unutar leve strane
+    p {
+        /* 💡 IZMENA 1: Postavljamo Bebas Neue font */
+        font-family: 'Bebas Neue', sans-serif; 
+        font-size: 1.7rem; 
+        color: white; 
+        
+        background-color: rgba(0, 0, 0, 0.7); 
+        padding: 30px; 
+        border-radius: 12px;
+        
+        /* 💡 IZMENA 2: Povećavamo max-width da zauzme skoro celu širinu leve kolone */
+        max-width: 90%; 
+        
+        /* Pošto je Bebas Neue kapitalni font, opravdavanje (justify) može izgledati neuredno.
+           Preporučujem da probate 'left' ili 'center' za ovaj font. */
+        text-align: justify; 
+    }
+}
+    
+// --- DESNA STRANA (Desktop Galerija) ---
+.about-right-side {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    .gallery-container{
+        margin-top:10% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* square gallery area that adapts to viewport */
+        .image-gallery{
+            width: min(660px, 60vw);
+            height: min(660px, 60vw);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba($color: #ffffff, $alpha: 0.5);
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        /* ensure both next/image and plain img fit and are centered */
+        .image-gallery img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+    }
+    .arrow-button-left, .arrow-button-right {
+            background: $color-primary-light;
+            border: 1px solid $color-primary-dark;
+            color: white;
+            font-size: 1.75rem;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            line-height: 1;
+            transition: background-color 0.2s;
+            &:hover {
+                background-color: $color-primary-dark;
+            }
+    }
+    /* Ensure arrow characters (in .arrow-icon) are centered visually */
+    .arrow-button-left .arrow-icon,
+    .arrow-button-right .arrow-icon,
+    .arrow-button .arrow-icon,
+    .arrow-button.left .arrow-icon,
+    .arrow-button.right .arrow-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        line-height: 1;
+        font-size: 1.2rem; /* slightly smaller to fit inside */
+    }
+    .arrow-button-left {
+        margin-right: 10px;
+    }
+    .arrow-button-right {
+        margin-left: 10px;
+    }
+    
+}
+
+// --- MOBILNI STILOVI ---
+@media #{$phone} {
+    .about-phone-container{
+        display: flex; 
+        background-image: url('/images/about-phone.png');
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        min-height: 100vh; 
+        flex-direction: column;
+        justify-content: flex-start; 
+        align-items: center;
+        padding-bottom: 20px; 
+
+        .empty-space{
+            width: 100vw;
+            height: 50px;
+        }
+
+        .gallery-phone{
+                height: 320px;
+                width: 320px;
+                background-color: rgba($color: #ffffff, $alpha: 0.5);
+                border-radius: 8px;
+                margin: 15px 0;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                overflow:hidden;
+
+                .touch-gallery{
+                    width: 100%;
+                    height: 100%;
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    -webkit-tap-highlight-color: transparent;
+                    /* allow vertical scroll but give JS control of horizontal swipes */
+                    touch-action: pan-y;
+                }
+
+                .touch-gallery .touch-image{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover; /* fill the whole container */
+                    object-position: center;
+                    display: block;
+                    user-select: none;
+                    -webkit-user-drag: none;
+                }
+        }
+        
+        .text-container{
+            font-size: 1.5rem;
+            padding: 15px;
+            text-align: left;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7); 
+            margin: 10px;
+            border-radius: 8px;
+            
+            p {
+                /* 💡 Postavljamo Bebas Neue font i ovde (ako se koristi) */
+                font-family: 'Bebas Neue', sans-serif; 
+                line-height: 1.5;
+            }
+        }
+    }
+}

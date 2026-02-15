@@ -1,0 +1,15 @@
+# Ignore database files in development
+*.db
+*.db-shm
+*.db-wal
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore build artifacts
+bin/
+obj/
+
+# Don't ignore .env file - we need it in the container
+# But make sure it's configured correctly in docker-compose.yml

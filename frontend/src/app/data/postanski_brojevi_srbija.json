@@ -1,0 +1,4686 @@
+[
+  {
+    "mesto": "Ada",
+    "postanski_broj": "24430"
+  },
+  {
+    "mesto": "Adasevci",
+    "postanski_broj": "22244"
+  },
+  {
+    "mesto": "Adorjan",
+    "postanski_broj": "24425"
+  },
+  {
+    "mesto": "Adrani",
+    "postanski_broj": "36203"
+  },
+  {
+    "mesto": "Aleksa Santic",
+    "postanski_broj": "25212"
+  },
+  {
+    "mesto": "Aleksandrovac",
+    "postanski_broj": "37230"
+  },
+  {
+    "mesto": "Aleksandrovac",
+    "postanski_broj": "12370"
+  },
+  {
+    "mesto": "Aleksandrovo",
+    "postanski_broj": "23217"
+  },
+  {
+    "mesto": "Aleksinac",
+    "postanski_broj": "18220"
+  },
+  {
+    "mesto": "Aleksinacki Rudnik",
+    "postanski_broj": "18226"
+  },
+  {
+    "mesto": "Alibunar",
+    "postanski_broj": "26310"
+  },
+  {
+    "mesto": "Aljinovici",
+    "postanski_broj": "31307"
+  },
+  {
+    "mesto": "Apatin",
+    "postanski_broj": "25260"
+  },
+  {
+    "mesto": "Aradac",
+    "postanski_broj": "23207"
+  },
+  {
+    "mesto": "Arandjelovac",
+    "postanski_broj": "34300"
+  },
+  {
+    "mesto": "Arandjelovac",
+    "postanski_broj": "34303"
+  },
+  {
+    "mesto": "Arilje",
+    "postanski_broj": "31230"
+  },
+  {
+    "mesto": "Asanja",
+    "postanski_broj": "22418"
+  },
+  {
+    "mesto": "Azanja",
+    "postanski_broj": "11423"
+  },
+  {
+    "mesto": "Babin Kal",
+    "postanski_broj": "18315"
+  },
+  {
+    "mesto": "Babusnica",
+    "postanski_broj": "18330"
+  },
+  {
+    "mesto": "Bacinci",
+    "postanski_broj": "22225"
+  },
+  {
+    "mesto": "Badnjevac",
+    "postanski_broj": "34226"
+  },
+  {
+    "mesto": "Badovinci",
+    "postanski_broj": "15358"
+  },
+  {
+    "mesto": "Bagrdan",
+    "postanski_broj": "35204"
+  },
+  {
+    "mesto": "Bajina Bašta",
+    "postanski_broj": "31250"
+  },
+  {
+    "mesto": "Bajmok",
+    "postanski_broj": "24210"
+  },
+  {
+    "mesto": "Bajša",
+    "postanski_broj": "24331"
+  },
+  {
+    "mesto": "Balajinac",
+    "postanski_broj": "18257"
+  },
+  {
+    "mesto": "Baljevac Na Ibru",
+    "postanski_broj": "36344"
+  },
+  {
+    "mesto": "Banatska Dubica",
+    "postanski_broj": "23251"
+  },
+  {
+    "mesto": "Banatska Palanka",
+    "postanski_broj": "26324"
+  },
+  {
+    "mesto": "Banatska Subotica",
+    "postanski_broj": "26327"
+  },
+  {
+    "mesto": "Banatska Topola",
+    "postanski_broj": "23315"
+  },
+  {
+    "mesto": "Banatski Brestovac",
+    "postanski_broj": "26234"
+  },
+  {
+    "mesto": "Banatski Despotovac",
+    "postanski_broj": "23242"
+  },
+  {
+    "mesto": "Banatski Dvor",
+    "postanski_broj": "23213"
+  },
+  {
+    "mesto": "Banatski Karlovac",
+    "postanski_broj": "26320"
+  },
+  {
+    "mesto": "Banatsko Arandjelovo",
+    "postanski_broj": "23332"
+  },
+  {
+    "mesto": "Banatsko Karađorđevo",
+    "postanski_broj": "23216"
+  },
+  {
+    "mesto": "Banatsko Novo Selo",
+    "postanski_broj": "26314"
+  },
+  {
+    "mesto": "Banatsko Veliko Selo",
+    "postanski_broj": "23312"
+  },
+  {
+    "mesto": "Banatsko Višnjićevo",
+    "postanski_broj": "23237"
+  },
+  {
+    "mesto": "Banicina",
+    "postanski_broj": "11424"
+  },
+  {
+    "mesto": "Banja",
+    "postanski_broj": "34304"
+  },
+  {
+    "mesto": "Banja Kod Priboja",
+    "postanski_broj": "31337"
+  },
+  {
+    "mesto": "Banja Koviljača",
+    "postanski_broj": "15316"
+  },
+  {
+    "mesto": "Banjani",
+    "postanski_broj": "14214"
+  },
+  {
+    "mesto": "Banjska",
+    "postanski_broj": "38216"
+  },
+  {
+    "mesto": "Banovci Dunav",
+    "postanski_broj": "22303"
+  },
+  {
+    "mesto": "Banovo Polje",
+    "postanski_broj": "15362"
+  },
+  {
+    "mesto": "Banoštor",
+    "postanski_broj": "21312"
+  },
+  {
+    "mesto": "Barajevo",
+    "postanski_broj": "11460"
+  },
+  {
+    "mesto": "Baranda",
+    "postanski_broj": "26205"
+  },
+  {
+    "mesto": "Barbatovac",
+    "postanski_broj": "18426"
+  },
+  {
+    "mesto": "Bare",
+    "postanski_broj": "34205"
+  },
+  {
+    "mesto": "Barice",
+    "postanski_broj": "26367"
+  },
+  {
+    "mesto": "Barič",
+    "postanski_broj": "11504"
+  },
+  {
+    "mesto": "Barlovo",
+    "postanski_broj": "18432"
+  },
+  {
+    "mesto": "Barosevac",
+    "postanski_broj": "11565"
+  },
+  {
+    "mesto": "Basaid",
+    "postanski_broj": "23316"
+  },
+  {
+    "mesto": "Batočina",
+    "postanski_broj": "34227"
+  },
+  {
+    "mesto": "Batrovci",
+    "postanski_broj": "22251"
+  },
+  {
+    "mesto": "Bavanište",
+    "postanski_broj": "26222"
+  },
+  {
+    "mesto": "Bač",
+    "postanski_broj": "21420"
+  },
+  {
+    "mesto": "Bačevci",
+    "postanski_broj": "31258"
+  },
+  {
+    "mesto": "Bačina",
+    "postanski_broj": "37265"
+  },
+  {
+    "mesto": "Bačka Palanka",
+    "postanski_broj": "21400"
+  },
+  {
+    "mesto": "Bačka Topola",
+    "postanski_broj": "24300"
+  },
+  {
+    "mesto": "Bački Breg",
+    "postanski_broj": "25275"
+  },
+  {
+    "mesto": "Bački Brestovac",
+    "postanski_broj": "25242"
+  },
+  {
+    "mesto": "Bački Gracac",
+    "postanski_broj": "25252"
+  },
+  {
+    "mesto": "Bački Jarak",
+    "postanski_broj": "21234"
+  },
+  {
+    "mesto": "Bački Monostor",
+    "postanski_broj": "25272"
+  },
+  {
+    "mesto": "Bački Petrovac",
+    "postanski_broj": "21470"
+  },
+  {
+    "mesto": "Bački Sokolac",
+    "postanski_broj": "24343"
+  },
+  {
+    "mesto": "Bački Vinogradi",
+    "postanski_broj": "24415"
+  },
+  {
+    "mesto": "Bačko Dobro Polje",
+    "postanski_broj": "21465"
+  },
+  {
+    "mesto": "Bačko Gradište",
+    "postanski_broj": "21217"
+  },
+  {
+    "mesto": "Bačko Novo Selo",
+    "postanski_broj": "21429"
+  },
+  {
+    "mesto": "Bačko Petrovo Selo",
+    "postanski_broj": "21226"
+  },
+  {
+    "mesto": "Begaljica",
+    "postanski_broj": "11308"
+  },
+  {
+    "mesto": "Begejci",
+    "postanski_broj": "23232"
+  },
+  {
+    "mesto": "Begeč",
+    "postanski_broj": "21411"
+  },
+  {
+    "mesto": "Bela Crkva",
+    "postanski_broj": "26340"
+  },
+  {
+    "mesto": "Bela Crkva",
+    "postanski_broj": "15313"
+  },
+  {
+    "mesto": "Bela Palanka",
+    "postanski_broj": "18310"
+  },
+  {
+    "mesto": "Bela Voda",
+    "postanski_broj": "37253"
+  },
+  {
+    "mesto": "Bela Zemlja",
+    "postanski_broj": "31311"
+  },
+  {
+    "mesto": "Belanovica",
+    "postanski_broj": "14246"
+  },
+  {
+    "mesto": "Bele Vode",
+    "postanski_broj": "32259"
+  },
+  {
+    "mesto": "Belegiš",
+    "postanski_broj": "22306"
+  },
+  {
+    "mesto": "Beli Potok",
+    "postanski_broj": "11223"
+  },
+  {
+    "mesto": "Beli Potok",
+    "postanski_broj": "19366"
+  },
+  {
+    "mesto": "Beljina",
+    "postanski_broj": "11461"
+  },
+  {
+    "mesto": "Belo Blato",
+    "postanski_broj": "23205"
+  },
+  {
+    "mesto": "Beloljin",
+    "postanski_broj": "18424"
+  },
+  {
+    "mesto": "Belosavci",
+    "postanski_broj": "34312"
+  },
+  {
+    "mesto": "Belotinac",
+    "postanski_broj": "18411"
+  },
+  {
+    "mesto": "Belusic",
+    "postanski_broj": "35263"
+  },
+  {
+    "mesto": "Beograd",
+    "postanski_broj": "11000"
+  },
+  {
+    "mesto": "Beograd Palilula",
+    "postanski_broj": "11060"
+  },
+  {
+    "mesto": "Beograd Rakovica",
+    "postanski_broj": "11090"
+  },
+  {
+    "mesto": "Beograd Vozdovac",
+    "postanski_broj": "11010"
+  },
+  {
+    "mesto": "Beograd Zemun",
+    "postanski_broj": "11080"
+  },
+  {
+    "mesto": "Beograd Zvezdara",
+    "postanski_broj": "11050"
+  },
+  {
+    "mesto": "Beograd Čukarica",
+    "postanski_broj": "11030"
+  },
+  {
+    "mesto": "Beočin",
+    "postanski_broj": "21300"
+  },
+  {
+    "mesto": "Berkasovo",
+    "postanski_broj": "22242"
+  },
+  {
+    "mesto": "Bersici",
+    "postanski_broj": "32305"
+  },
+  {
+    "mesto": "Bezdan",
+    "postanski_broj": "25270"
+  },
+  {
+    "mesto": "Bečej",
+    "postanski_broj": "21220"
+  },
+  {
+    "mesto": "Bečmen",
+    "postanski_broj": "11279"
+  },
+  {
+    "mesto": "Bešenovo",
+    "postanski_broj": "22212"
+  },
+  {
+    "mesto": "Beška",
+    "postanski_broj": "22324"
+  },
+  {
+    "mesto": "Bigrenica",
+    "postanski_broj": "35238"
+  },
+  {
+    "mesto": "Bikić Do",
+    "postanski_broj": "22254"
+  },
+  {
+    "mesto": "Bikovo",
+    "postanski_broj": "24206"
+  },
+  {
+    "mesto": "Biljaca",
+    "postanski_broj": "17522"
+  },
+  {
+    "mesto": "Bingula",
+    "postanski_broj": "22253"
+  },
+  {
+    "mesto": "Bioska",
+    "postanski_broj": "31241"
+  },
+  {
+    "mesto": "Bistar",
+    "postanski_broj": "17546"
+  },
+  {
+    "mesto": "Bistrica",
+    "postanski_broj": "31325"
+  },
+  {
+    "mesto": "Blace",
+    "postanski_broj": "18420"
+  },
+  {
+    "mesto": "Blazevo",
+    "postanski_broj": "37226"
+  },
+  {
+    "mesto": "Bobovo",
+    "postanski_broj": "35217"
+  },
+  {
+    "mesto": "Bocar",
+    "postanski_broj": "23274"
+  },
+  {
+    "mesto": "Bodjani",
+    "postanski_broj": "21427"
+  },
+  {
+    "mesto": "Bogaras",
+    "postanski_broj": "24408"
+  },
+  {
+    "mesto": "Bogatić",
+    "postanski_broj": "15350"
+  },
+  {
+    "mesto": "Bogojevo",
+    "postanski_broj": "25245"
+  },
+  {
+    "mesto": "Bogovadja",
+    "postanski_broj": "14225"
+  },
+  {
+    "mesto": "Bogovina",
+    "postanski_broj": "19372"
+  },
+  {
+    "mesto": "Bogutovac",
+    "postanski_broj": "36341"
+  },
+  {
+    "mesto": "Bojnik",
+    "postanski_broj": "16205"
+  },
+  {
+    "mesto": "Boka",
+    "postanski_broj": "23252"
+  },
+  {
+    "mesto": "Boleč",
+    "postanski_broj": "11307"
+  },
+  {
+    "mesto": "Boljevac",
+    "postanski_broj": "19370"
+  },
+  {
+    "mesto": "Boljevci",
+    "postanski_broj": "11275"
+  },
+  {
+    "mesto": "Boljkovci",
+    "postanski_broj": "32312"
+  },
+  {
+    "mesto": "Bor",
+    "postanski_broj": "19210"
+  },
+  {
+    "mesto": "Borski Brestovac",
+    "postanski_broj": "19229"
+  },
+  {
+    "mesto": "Borsko Bucje",
+    "postanski_broj": "19231"
+  },
+  {
+    "mesto": "Borča",
+    "postanski_broj": "11211"
+  },
+  {
+    "mesto": "Bosilegrad",
+    "postanski_broj": "17540"
+  },
+  {
+    "mesto": "Bosnjace",
+    "postanski_broj": "16232"
+  },
+  {
+    "mesto": "Bosnjane",
+    "postanski_broj": "37262"
+  },
+  {
+    "mesto": "Bosut",
+    "postanski_broj": "22217"
+  },
+  {
+    "mesto": "Botos",
+    "postanski_broj": "23243"
+  },
+  {
+    "mesto": "Bozetici",
+    "postanski_broj": "31322"
+  },
+  {
+    "mesto": "Bozevac",
+    "postanski_broj": "12313"
+  },
+  {
+    "mesto": "Bozica",
+    "postanski_broj": "17537"
+  },
+  {
+    "mesto": "Bracevac",
+    "postanski_broj": "19315"
+  },
+  {
+    "mesto": "Bradarac",
+    "postanski_broj": "12206"
+  },
+  {
+    "mesto": "Braničevo",
+    "postanski_broj": "12222"
+  },
+  {
+    "mesto": "Brankovina",
+    "postanski_broj": "14201"
+  },
+  {
+    "mesto": "Bratinac",
+    "postanski_broj": "12225"
+  },
+  {
+    "mesto": "Bratljevo",
+    "postanski_broj": "32256"
+  },
+  {
+    "mesto": "Brekovo",
+    "postanski_broj": "31234"
+  },
+  {
+    "mesto": "Bresnica",
+    "postanski_broj": "32213"
+  },
+  {
+    "mesto": "Brestac",
+    "postanski_broj": "B22415"
+  },
+  {
+    "mesto": "Brestovac",
+    "postanski_broj": "16253"
+  },
+  {
+    "mesto": "Brestovačka Banja",
+    "postanski_broj": "19216"
+  },
+  {
+    "mesto": "Brezane",
+    "postanski_broj": "12205"
+  },
+  {
+    "mesto": "Brezde",
+    "postanski_broj": "14244"
+  },
+  {
+    "mesto": "Brezjak",
+    "postanski_broj": "15309"
+  },
+  {
+    "mesto": "Brezna",
+    "postanski_broj": "32307"
+  },
+  {
+    "mesto": "Brezova",
+    "postanski_broj": "32253"
+  },
+  {
+    "mesto": "Brezovica",
+    "postanski_broj": "38157"
+  },
+  {
+    "mesto": "Brgule",
+    "postanski_broj": "14212"
+  },
+  {
+    "mesto": "Brnjica",
+    "postanski_broj": "12230"
+  },
+  {
+    "mesto": "Brodarevo",
+    "postanski_broj": "31305"
+  },
+  {
+    "mesto": "Brus",
+    "postanski_broj": "37220"
+  },
+  {
+    "mesto": "Brusnik",
+    "postanski_broj": "19313"
+  },
+  {
+    "mesto": "Brvenik",
+    "postanski_broj": "36346"
+  },
+  {
+    "mesto": "Brza Palanka",
+    "postanski_broj": "19323"
+  },
+  {
+    "mesto": "Brzan",
+    "postanski_broj": "34228"
+  },
+  {
+    "mesto": "Brzeće",
+    "postanski_broj": "37225"
+  },
+  {
+    "mesto": "Brđani",
+    "postanski_broj": "32303"
+  },
+  {
+    "mesto": "Bucje",
+    "postanski_broj": "19369"
+  },
+  {
+    "mesto": "Budisava",
+    "postanski_broj": "21242"
+  },
+  {
+    "mesto": "Budjanovci",
+    "postanski_broj": "22421"
+  },
+  {
+    "mesto": "Bujanovac",
+    "postanski_broj": "17520"
+  },
+  {
+    "mesto": "Bujanovac",
+    "postanski_broj": "17567"
+  },
+  {
+    "mesto": "Bukovac",
+    "postanski_broj": "21209"
+  },
+  {
+    "mesto": "Bukovica",
+    "postanski_broj": "32251"
+  },
+  {
+    "mesto": "Bukovik",
+    "postanski_broj": "34301"
+  },
+  {
+    "mesto": "Bukurovac",
+    "postanski_broj": "34217"
+  },
+  {
+    "mesto": "Bumbarevo Brdo",
+    "postanski_broj": "34242"
+  },
+  {
+    "mesto": "Bunar",
+    "postanski_broj": "35273"
+  },
+  {
+    "mesto": "Burdimo",
+    "postanski_broj": "18368"
+  },
+  {
+    "mesto": "Burovac",
+    "postanski_broj": "12307"
+  },
+  {
+    "mesto": "Busilovac",
+    "postanski_broj": "35249"
+  },
+  {
+    "mesto": "Cecina",
+    "postanski_broj": "18417"
+  },
+  {
+    "mesto": "Cerovac",
+    "postanski_broj": "15224"
+  },
+  {
+    "mesto": "Cestereg",
+    "postanski_broj": "23215"
+  },
+  {
+    "mesto": "Conoplja",
+    "postanski_broj": "25210"
+  },
+  {
+    "mesto": "Crepaja",
+    "postanski_broj": "26213"
+  },
+  {
+    "mesto": "Crkvine",
+    "postanski_broj": "36321"
+  },
+  {
+    "mesto": "Crna Bara",
+    "postanski_broj": "23328"
+  },
+  {
+    "mesto": "Crna Bara",
+    "postanski_broj": "15355"
+  },
+  {
+    "mesto": "Crna Trava",
+    "postanski_broj": "16215"
+  },
+  {
+    "mesto": "Crnokliste",
+    "postanski_broj": "18304"
+  },
+  {
+    "mesto": "Crvena Crkva",
+    "postanski_broj": "26323"
+  },
+  {
+    "mesto": "Crvena Reka",
+    "postanski_broj": "18313"
+  },
+  {
+    "mesto": "Crvenka",
+    "postanski_broj": "25220"
+  },
+  {
+    "mesto": "Darosava",
+    "postanski_broj": "34305"
+  },
+  {
+    "mesto": "Dasnica",
+    "postanski_broj": "37271"
+  },
+  {
+    "mesto": "Debeljača",
+    "postanski_broj": "15214"
+  },
+  {
+    "mesto": "Dec",
+    "postanski_broj": "22441"
+  },
+  {
+    "mesto": "Deliblato",
+    "postanski_broj": "26225"
+  },
+  {
+    "mesto": "Delimede",
+    "postanski_broj": "36307"
+  },
+  {
+    "mesto": "Deronje",
+    "postanski_broj": "25254"
+  },
+  {
+    "mesto": "Desimirovac",
+    "postanski_broj": "34321"
+  },
+  {
+    "mesto": "Despotovac",
+    "postanski_broj": "35213"
+  },
+  {
+    "mesto": "Despotovo",
+    "postanski_broj": "21468"
+  },
+  {
+    "mesto": "Devojački Bunar",
+    "postanski_broj": "26316"
+  },
+  {
+    "mesto": "Dezeva",
+    "postanski_broj": "36305"
+  },
+  {
+    "mesto": "Dimitrovgrad",
+    "postanski_broj": "18320"
+  },
+  {
+    "mesto": "Divci",
+    "postanski_broj": "14222"
+  },
+  {
+    "mesto": "Divljaka",
+    "postanski_broj": "31236"
+  },
+  {
+    "mesto": "Divostin",
+    "postanski_broj": "34204"
+  },
+  {
+    "mesto": "Divoš",
+    "postanski_broj": "22232"
+  },
+  {
+    "mesto": "Divčibare",
+    "postanski_broj": "14204"
+  },
+  {
+    "mesto": "Djunis",
+    "postanski_broj": "37202"
+  },
+  {
+    "mesto": "Dobanovci",
+    "postanski_broj": "11272"
+  },
+  {
+    "mesto": "Dobra",
+    "postanski_broj": "12224"
+  },
+  {
+    "mesto": "Dobri Do",
+    "postanski_broj": "18408"
+  },
+  {
+    "mesto": "Dobrica",
+    "postanski_broj": "26354"
+  },
+  {
+    "mesto": "Dobrinci",
+    "postanski_broj": "22412"
+  },
+  {
+    "mesto": "Dobrić",
+    "postanski_broj": "15235"
+  },
+  {
+    "mesto": "Dolac",
+    "postanski_broj": "18314"
+  },
+  {
+    "mesto": "Doljevac",
+    "postanski_broj": "18410"
+  },
+  {
+    "mesto": "Dolovo",
+    "postanski_broj": "26227"
+  },
+  {
+    "mesto": "Donja Bela Reka",
+    "postanski_broj": "19213"
+  },
+  {
+    "mesto": "Donja Borina",
+    "postanski_broj": "15317"
+  },
+  {
+    "mesto": "Donja Kamenica",
+    "postanski_broj": "19352"
+  },
+  {
+    "mesto": "Donja Livadica",
+    "postanski_broj": "11326"
+  },
+  {
+    "mesto": "Donja Ljubata",
+    "postanski_broj": "17544"
+  },
+  {
+    "mesto": "Donja Mutnica",
+    "postanski_broj": "35255"
+  },
+  {
+    "mesto": "Donja Orovica",
+    "postanski_broj": "15323"
+  },
+  {
+    "mesto": "Donja Rečica",
+    "postanski_broj": "18404"
+  },
+  {
+    "mesto": "Donja Satornja",
+    "postanski_broj": "34314"
+  },
+  {
+    "mesto": "Donja Trnava",
+    "postanski_broj": "18421"
+  },
+  {
+    "mesto": "Donje Crnatovo",
+    "postanski_broj": "18414"
+  },
+  {
+    "mesto": "Donje Crniljevo",
+    "postanski_broj": "15227"
+  },
+  {
+    "mesto": "Donje Medurovo",
+    "postanski_broj": "18254"
+  },
+  {
+    "mesto": "Donje Tlamino",
+    "postanski_broj": "17547"
+  },
+  {
+    "mesto": "Donje Vidovo",
+    "postanski_broj": "35258"
+  },
+  {
+    "mesto": "Donje Zuniće",
+    "postanski_broj": "19345"
+  },
+  {
+    "mesto": "Donji Dušnik",
+    "postanski_broj": "18242"
+  },
+  {
+    "mesto": "Donji Krcin",
+    "postanski_broj": "37258"
+  },
+  {
+    "mesto": "Donji Milanovac",
+    "postanski_broj": "19220"
+  },
+  {
+    "mesto": "Donji Stajevac",
+    "postanski_broj": "17526"
+  },
+  {
+    "mesto": "Doroslovo",
+    "postanski_broj": "25243"
+  },
+  {
+    "mesto": "Draginac",
+    "postanski_broj": "15311"
+  },
+  {
+    "mesto": "Draginje",
+    "postanski_broj": "15226"
+  },
+  {
+    "mesto": "Draglica",
+    "postanski_broj": "31317"
+  },
+  {
+    "mesto": "Dragobraca",
+    "postanski_broj": "34231"
+  },
+  {
+    "mesto": "Dragocvet",
+    "postanski_broj": "35272"
+  },
+  {
+    "mesto": "Dragovo",
+    "postanski_broj": "35265"
+  },
+  {
+    "mesto": "Dragoševac",
+    "postanski_broj": "35262"
+  },
+  {
+    "mesto": "Drajkovce",
+    "postanski_broj": "38239"
+  },
+  {
+    "mesto": "Dračić",
+    "postanski_broj": "14203"
+  },
+  {
+    "mesto": "Draževac",
+    "postanski_broj": "11506"
+  },
+  {
+    "mesto": "Draževac(kod Aleksinca)",
+    "postanski_broj": "18223"
+  },
+  {
+    "mesto": "Drenovac",
+    "postanski_broj": "35257"
+  },
+  {
+    "mesto": "Drenovac",
+    "postanski_broj": "15212"
+  },
+  {
+    "mesto": "Drlace",
+    "postanski_broj": "15324"
+  },
+  {
+    "mesto": "Drugovac",
+    "postanski_broj": "11432"
+  },
+  {
+    "mesto": "Dublje",
+    "postanski_broj": "15359"
+  },
+  {
+    "mesto": "Duboka",
+    "postanski_broj": "12255"
+  },
+  {
+    "mesto": "Dubovac",
+    "postanski_broj": "26224"
+  },
+  {
+    "mesto": "Dubovo",
+    "postanski_broj": "18406"
+  },
+  {
+    "mesto": "Dubravica",
+    "postanski_broj": "12207"
+  },
+  {
+    "mesto": "Dudovica",
+    "postanski_broj": "11561"
+  },
+  {
+    "mesto": "Duga Poljana",
+    "postanski_broj": "36312"
+  },
+  {
+    "mesto": "Dugo Polje",
+    "postanski_broj": "18237"
+  },
+  {
+    "mesto": "Dupljaja",
+    "postanski_broj": "26328"
+  },
+  {
+    "mesto": "Dušanovac",
+    "postanski_broj": "19335"
+  },
+  {
+    "mesto": "Dvorane",
+    "postanski_broj": "37206"
+  },
+  {
+    "mesto": "Džep",
+    "postanski_broj": "17514"
+  },
+  {
+    "mesto": "Džigolj",
+    "postanski_broj": "18405"
+  },
+  {
+    "mesto": "Elemir",
+    "postanski_broj": "23208"
+  },
+  {
+    "mesto": "Erdec",
+    "postanski_broj": "34207"
+  },
+  {
+    "mesto": "Erdevik",
+    "postanski_broj": "22230"
+  },
+  {
+    "mesto": "Ečka",
+    "postanski_broj": "23203"
+  },
+  {
+    "mesto": "Farkaždin",
+    "postanski_broj": "23264"
+  },
+  {
+    "mesto": "Feketić",
+    "postanski_broj": "24323"
+  },
+  {
+    "mesto": "Futog",
+    "postanski_broj": "21410"
+  },
+  {
+    "mesto": "Gadžin Han",
+    "postanski_broj": "18240"
+  },
+  {
+    "mesto": "Gaj",
+    "postanski_broj": "26223"
+  },
+  {
+    "mesto": "Gajdobra",
+    "postanski_broj": "21432"
+  },
+  {
+    "mesto": "Gakovo",
+    "postanski_broj": "25282"
+  },
+  {
+    "mesto": "Gamzigradska Banja",
+    "postanski_broj": "19228"
+  },
+  {
+    "mesto": "Gardinovci",
+    "postanski_broj": "21247"
+  },
+  {
+    "mesto": "Gibarac",
+    "postanski_broj": "22258"
+  },
+  {
+    "mesto": "Glavinci",
+    "postanski_broj": "35261"
+  },
+  {
+    "mesto": "Globoder",
+    "postanski_broj": "37251"
+  },
+  {
+    "mesto": "Glogonj",
+    "postanski_broj": "26202"
+  },
+  {
+    "mesto": "Glogovac",
+    "postanski_broj": "35222"
+  },
+  {
+    "mesto": "Gložan",
+    "postanski_broj": "21412"
+  },
+  {
+    "mesto": "Glušci",
+    "postanski_broj": "15356"
+  },
+  {
+    "mesto": "Golobok",
+    "postanski_broj": "11316"
+  },
+  {
+    "mesto": "Golubac",
+    "postanski_broj": "12223"
+  },
+  {
+    "mesto": "Golubinci",
+    "postanski_broj": "22308"
+  },
+  {
+    "mesto": "Goračići",
+    "postanski_broj": "32232"
+  },
+  {
+    "mesto": "Goričani",
+    "postanski_broj": "32225"
+  },
+  {
+    "mesto": "Gornja Dobrinja",
+    "postanski_broj": "31214"
+  },
+  {
+    "mesto": "Gornja Draguša",
+    "postanski_broj": "18425"
+  },
+  {
+    "mesto": "Gornja Lisina",
+    "postanski_broj": "17538"
+  },
+  {
+    "mesto": "Gornja Sabanta",
+    "postanski_broj": "34206"
+  },
+  {
+    "mesto": "Gornja Toplica",
+    "postanski_broj": "14243"
+  },
+  {
+    "mesto": "Gornja Toponica",
+    "postanski_broj": "18202"
+  },
+  {
+    "mesto": "Gornja Trepca",
+    "postanski_broj": "32215"
+  },
+  {
+    "mesto": "Gornji Banjani",
+    "postanski_broj": "32306"
+  },
+  {
+    "mesto": "Gornji Barbes",
+    "postanski_broj": "18241"
+  },
+  {
+    "mesto": "Gornji Breg",
+    "postanski_broj": "24406"
+  },
+  {
+    "mesto": "Gornji Brestovac",
+    "postanski_broj": "16244"
+  },
+  {
+    "mesto": "Gornji Matejevac",
+    "postanski_broj": "18204"
+  },
+  {
+    "mesto": "Gornji Milanovac",
+    "postanski_broj": "32300"
+  },
+  {
+    "mesto": "Gornji Stepos",
+    "postanski_broj": "37221"
+  },
+  {
+    "mesto": "Gornji Stupanj",
+    "postanski_broj": "37234"
+  },
+  {
+    "mesto": "Gospođinci",
+    "postanski_broj": "21237"
+  },
+  {
+    "mesto": "Gostilje",
+    "postanski_broj": "31313"
+  },
+  {
+    "mesto": "Grabovac",
+    "postanski_broj": "11508"
+  },
+  {
+    "mesto": "Grabovci",
+    "postanski_broj": "22423"
+  },
+  {
+    "mesto": "Gracanica",
+    "postanski_broj": "38205"
+  },
+  {
+    "mesto": "Gradina",
+    "postanski_broj": "18321"
+  },
+  {
+    "mesto": "Gradskovo",
+    "postanski_broj": "19205"
+  },
+  {
+    "mesto": "Grasevci",
+    "postanski_broj": "37229"
+  },
+  {
+    "mesto": "Grdelica",
+    "postanski_broj": "16220"
+  },
+  {
+    "mesto": "Grebenac",
+    "postanski_broj": "26347"
+  },
+  {
+    "mesto": "Gredetin",
+    "postanski_broj": "18213"
+  },
+  {
+    "mesto": "Grejac",
+    "postanski_broj": "18219"
+  },
+  {
+    "mesto": "Grgurevci",
+    "postanski_broj": "22213"
+  },
+  {
+    "mesto": "Grlište",
+    "postanski_broj": "19342"
+  },
+  {
+    "mesto": "Grljan",
+    "postanski_broj": "19341"
+  },
+  {
+    "mesto": "Grocka",
+    "postanski_broj": "11306"
+  },
+  {
+    "mesto": "Grosnica",
+    "postanski_broj": "34202"
+  },
+  {
+    "mesto": "Gruza",
+    "postanski_broj": "34230"
+  },
+  {
+    "mesto": "Guberevac",
+    "postanski_broj": "34232"
+  },
+  {
+    "mesto": "Gudurica",
+    "postanski_broj": "26335"
+  },
+  {
+    "mesto": "Gunaroš",
+    "postanski_broj": "24312"
+  },
+  {
+    "mesto": "Guča",
+    "postanski_broj": "32230"
+  },
+  {
+    "mesto": "Guševac",
+    "postanski_broj": "18208"
+  },
+  {
+    "mesto": "Hajdukovo",
+    "postanski_broj": "24414"
+  },
+  {
+    "mesto": "Hajdučica",
+    "postanski_broj": "26370"
+  },
+  {
+    "mesto": "Halovo",
+    "postanski_broj": "19236"
+  },
+  {
+    "mesto": "Hetin",
+    "postanski_broj": "23235"
+  },
+  {
+    "mesto": "Horgoš",
+    "postanski_broj": "24410"
+  },
+  {
+    "mesto": "Horgoš Granični Prelaz",
+    "postanski_broj": "24411"
+  },
+  {
+    "mesto": "Hrtkovci",
+    "postanski_broj": "22427"
+  },
+  {
+    "mesto": "Idvor",
+    "postanski_broj": "26207"
+  },
+  {
+    "mesto": "Ilandža",
+    "postanski_broj": "26352"
+  },
+  {
+    "mesto": "Ilinci",
+    "postanski_broj": "22250"
+  },
+  {
+    "mesto": "Ilićevo",
+    "postanski_broj": "34203"
+  },
+  {
+    "mesto": "Inđija",
+    "postanski_broj": "22320"
+  },
+  {
+    "mesto": "Irig",
+    "postanski_broj": "22406"
+  },
+  {
+    "mesto": "Ivanjica",
+    "postanski_broj": "32250"
+  },
+  {
+    "mesto": "Ivanovo",
+    "postanski_broj": "26233"
+  },
+  {
+    "mesto": "Izbište",
+    "postanski_broj": "26343"
+  },
+  {
+    "mesto": "Iđos",
+    "postanski_broj": "23323"
+  },
+  {
+    "mesto": "Jablanica",
+    "postanski_broj": "31314"
+  },
+  {
+    "mesto": "Jabuka",
+    "postanski_broj": "26201"
+  },
+  {
+    "mesto": "Jabuka",
+    "postanski_broj": "31306"
+  },
+  {
+    "mesto": "Jabukovac",
+    "postanski_broj": "19304"
+  },
+  {
+    "mesto": "Jabučje",
+    "postanski_broj": "14226"
+  },
+  {
+    "mesto": "Jadranska Lešnica",
+    "postanski_broj": "15308"
+  },
+  {
+    "mesto": "Jagnjilo",
+    "postanski_broj": "11412"
+  },
+  {
+    "mesto": "Jagodina",
+    "postanski_broj": "35000"
+  },
+  {
+    "mesto": "Jakovo",
+    "postanski_broj": "11276"
+  },
+  {
+    "mesto": "Jamena",
+    "postanski_broj": "22248"
+  },
+  {
+    "mesto": "Janošik",
+    "postanski_broj": "26362"
+  },
+  {
+    "mesto": "Jarkovac",
+    "postanski_broj": "23250"
+  },
+  {
+    "mesto": "Jarmenovci",
+    "postanski_broj": "34318"
+  },
+  {
+    "mesto": "Jasenovo",
+    "postanski_broj": "35241"
+  },
+  {
+    "mesto": "Jasenovo",
+    "postanski_broj": "26346"
+  },
+  {
+    "mesto": "Jasenovo",
+    "postanski_broj": "31319"
+  },
+  {
+    "mesto": "Jasika",
+    "postanski_broj": "37252"
+  },
+  {
+    "mesto": "Jazak",
+    "postanski_broj": "22409"
+  },
+  {
+    "mesto": "Jazovo",
+    "postanski_broj": "23327"
+  },
+  {
+    "mesto": "Jaša Tomić",
+    "postanski_broj": "23230"
+  },
+  {
+    "mesto": "Jelašnica",
+    "postanski_broj": "17531"
+  },
+  {
+    "mesto": "Jelašnica",
+    "postanski_broj": "18206"
+  },
+  {
+    "mesto": "Jelen Do",
+    "postanski_broj": "31215"
+  },
+  {
+    "mesto": "Jelovik",
+    "postanski_broj": "34309"
+  },
+  {
+    "mesto": "Jermenovci",
+    "postanski_broj": "26363"
+  },
+  {
+    "mesto": "Ježevica",
+    "postanski_broj": "31213"
+  },
+  {
+    "mesto": "Ježevica",
+    "postanski_broj": "32222"
+  },
+  {
+    "mesto": "Jovac",
+    "postanski_broj": "35205"
+  },
+  {
+    "mesto": "Jovanovac",
+    "postanski_broj": "18258"
+  },
+  {
+    "mesto": "Jovanovac",
+    "postanski_broj": "34211"
+  },
+  {
+    "mesto": "Jošanica",
+    "postanski_broj": "18234"
+  },
+  {
+    "mesto": "Jošanicka Banja",
+    "postanski_broj": "36345"
+  },
+  {
+    "mesto": "Jugbogdanovac",
+    "postanski_broj": "18253"
+  },
+  {
+    "mesto": "Junkovac",
+    "postanski_broj": "11562"
+  },
+  {
+    "mesto": "Kajtasovo",
+    "postanski_broj": "26329"
+  },
+  {
+    "mesto": "Kalna",
+    "postanski_broj": "19353"
+  },
+  {
+    "mesto": "Kaluđerica",
+    "postanski_broj": "11130"
+  },
+  {
+    "mesto": "Kaluđerske Bare",
+    "postanski_broj": "31257"
+  },
+  {
+    "mesto": "Kamenica",
+    "postanski_broj": "18324"
+  },
+  {
+    "mesto": "Kamenica",
+    "postanski_broj": "32206"
+  },
+  {
+    "mesto": "Kamenica",
+    "postanski_broj": "14252"
+  },
+  {
+    "mesto": "Kamenica",
+    "postanski_broj": "15222"
+  },
+  {
+    "mesto": "Kanjiža",
+    "postanski_broj": "24420"
+  },
+  {
+    "mesto": "Kaona",
+    "postanski_broj": "32234"
+  },
+  {
+    "mesto": "Kaonik",
+    "postanski_broj": "37256"
+  },
+  {
+    "mesto": "Karadjordjevo",
+    "postanski_broj": "24308"
+  },
+  {
+    "mesto": "Karan",
+    "postanski_broj": "31204"
+  },
+  {
+    "mesto": "Karavukovo",
+    "postanski_broj": "25255"
+  },
+  {
+    "mesto": "Karađorđevo",
+    "postanski_broj": "21421"
+  },
+  {
+    "mesto": "Karlovčić",
+    "postanski_broj": "22443"
+  },
+  {
+    "mesto": "Katun",
+    "postanski_broj": "18225"
+  },
+  {
+    "mesto": "Kać",
+    "postanski_broj": "21241"
+  },
+  {
+    "mesto": "Kačarevo",
+    "postanski_broj": "26212"
+  },
+  {
+    "mesto": "Kelebija",
+    "postanski_broj": "24104"
+  },
+  {
+    "mesto": "Kelebija-granični prelaz",
+    "postanski_broj": "24205"
+  },
+  {
+    "mesto": "Kevi",
+    "postanski_broj": "24407"
+  },
+  {
+    "mesto": "Kikinda",
+    "postanski_broj": "23300"
+  },
+  {
+    "mesto": "Kisač",
+    "postanski_broj": "21211"
+  },
+  {
+    "mesto": "Kladovo",
+    "postanski_broj": "19320"
+  },
+  {
+    "mesto": "Klek",
+    "postanski_broj": "23211"
+  },
+  {
+    "mesto": "Klenak",
+    "postanski_broj": "22424"
+  },
+  {
+    "mesto": "Klenike",
+    "postanski_broj": "17524"
+  },
+  {
+    "mesto": "Klenje",
+    "postanski_broj": "12258"
+  },
+  {
+    "mesto": "Klenje",
+    "postanski_broj": "15357"
+  },
+  {
+    "mesto": "Klisura",
+    "postanski_broj": "17535"
+  },
+  {
+    "mesto": "Kličevac",
+    "postanski_broj": "12209"
+  },
+  {
+    "mesto": "Kljajićevo",
+    "postanski_broj": "25221"
+  },
+  {
+    "mesto": "Klokočevac",
+    "postanski_broj": "19222"
+  },
+  {
+    "mesto": "Knić",
+    "postanski_broj": "34240"
+  },
+  {
+    "mesto": "Knićanin",
+    "postanski_broj": "23265"
+  },
+  {
+    "mesto": "Knjaževac",
+    "postanski_broj": "19350"
+  },
+  {
+    "mesto": "Kobišnica",
+    "postanski_broj": "19316"
+  },
+  {
+    "mesto": "Koceljeva",
+    "postanski_broj": "15220"
+  },
+  {
+    "mesto": "Kokin Brod",
+    "postanski_broj": "31318"
+  },
+  {
+    "mesto": "Kolare",
+    "postanski_broj": "35242"
+  },
+  {
+    "mesto": "Kolari",
+    "postanski_broj": "11431"
+  },
+  {
+    "mesto": "Kolut",
+    "postanski_broj": "25274"
+  },
+  {
+    "mesto": "Komirić",
+    "postanski_broj": "14254"
+  },
+  {
+    "mesto": "Konak",
+    "postanski_broj": "23253"
+  },
+  {
+    "mesto": "Konarevo",
+    "postanski_broj": "36340"
+  },
+  {
+    "mesto": "Konjuh",
+    "postanski_broj": "37254"
+  },
+  {
+    "mesto": "Končarevo",
+    "postanski_broj": "35219"
+  },
+  {
+    "mesto": "Kopaonik",
+    "postanski_broj": "36354"
+  },
+  {
+    "mesto": "Koprivnica",
+    "postanski_broj": "19223"
+  },
+  {
+    "mesto": "Koraćica",
+    "postanski_broj": "11415"
+  },
+  {
+    "mesto": "Korbevac",
+    "postanski_broj": "17545"
+  },
+  {
+    "mesto": "Korbovo",
+    "postanski_broj": "19329"
+  },
+  {
+    "mesto": "Korenita",
+    "postanski_broj": "15302"
+  },
+  {
+    "mesto": "Korman",
+    "postanski_broj": "18216"
+  },
+  {
+    "mesto": "Korman",
+    "postanski_broj": "34224"
+  },
+  {
+    "mesto": "Kosančić",
+    "postanski_broj": "16206"
+  },
+  {
+    "mesto": "Kosjerić",
+    "postanski_broj": "31260"
+  },
+  {
+    "mesto": "Kosovo Polje",
+    "postanski_broj": "38210"
+  },
+  {
+    "mesto": "Kosovska Mitrovica",
+    "postanski_broj": "38220"
+  },
+  {
+    "mesto": "Kostojevići",
+    "postanski_broj": "31254"
+  },
+  {
+    "mesto": "Kostolac",
+    "postanski_broj": "12208"
+  },
+  {
+    "mesto": "Kotraža",
+    "postanski_broj": "32235"
+  },
+  {
+    "mesto": "Kovačevac",
+    "postanski_broj": "11409"
+  },
+  {
+    "mesto": "Kovačica",
+    "postanski_broj": "26210"
+  },
+  {
+    "mesto": "Kovilj",
+    "postanski_broj": "21243"
+  },
+  {
+    "mesto": "Kovilje",
+    "postanski_broj": "32257"
+  },
+  {
+    "mesto": "Kovin",
+    "postanski_broj": "26220"
+  },
+  {
+    "mesto": "Kragujevac",
+    "postanski_broj": "34000"
+  },
+  {
+    "mesto": "Krajišnik",
+    "postanski_broj": "23231"
+  },
+  {
+    "mesto": "Kraljevci",
+    "postanski_broj": "22411"
+  },
+  {
+    "mesto": "Kraljevo",
+    "postanski_broj": "36000"
+  },
+  {
+    "mesto": "Kremna",
+    "postanski_broj": "31242"
+  },
+  {
+    "mesto": "Krepoljin",
+    "postanski_broj": "12316"
+  },
+  {
+    "mesto": "Kriva Feja",
+    "postanski_broj": "17543"
+  },
+  {
+    "mesto": "Kriva Reka",
+    "postanski_broj": "37282"
+  },
+  {
+    "mesto": "Krivaja",
+    "postanski_broj": "24341"
+  },
+  {
+    "mesto": "Krivelj",
+    "postanski_broj": "19219"
+  },
+  {
+    "mesto": "Krivi Vir",
+    "postanski_broj": "19375"
+  },
+  {
+    "mesto": "Krnjevo",
+    "postanski_broj": "11319"
+  },
+  {
+    "mesto": "Krnješevci",
+    "postanski_broj": "22314"
+  },
+  {
+    "mesto": "Krupanj",
+    "postanski_broj": "15314"
+  },
+  {
+    "mesto": "Krupač",
+    "postanski_broj": "18307"
+  },
+  {
+    "mesto": "Krusčić",
+    "postanski_broj": "25225"
+  },
+  {
+    "mesto": "Krušar",
+    "postanski_broj": "35227"
+  },
+  {
+    "mesto": "Krušedol",
+    "postanski_broj": "22328"
+  },
+  {
+    "mesto": "Kruševac",
+    "postanski_broj": "37000"
+  },
+  {
+    "mesto": "Kruševica",
+    "postanski_broj": "18409"
+  },
+  {
+    "mesto": "Kruščica",
+    "postanski_broj": "26380"
+  },
+  {
+    "mesto": "Kruščica",
+    "postanski_broj": "31233"
+  },
+  {
+    "mesto": "Krčedin",
+    "postanski_broj": "22325"
+  },
+  {
+    "mesto": "Kucura",
+    "postanski_broj": "21466"
+  },
+  {
+    "mesto": "Kukljin",
+    "postanski_broj": "37255"
+  },
+  {
+    "mesto": "Kukujevci",
+    "postanski_broj": "22224"
+  },
+  {
+    "mesto": "Kula",
+    "postanski_broj": "25230"
+  },
+  {
+    "mesto": "Kulina",
+    "postanski_broj": "18214"
+  },
+  {
+    "mesto": "Kulpin",
+    "postanski_broj": "21472"
+  },
+  {
+    "mesto": "Kumane",
+    "postanski_broj": "23271"
+  },
+  {
+    "mesto": "Kupci",
+    "postanski_broj": "37222"
+  },
+  {
+    "mesto": "Kupinik",
+    "postanski_broj": "26368"
+  },
+  {
+    "mesto": "Kupinovo",
+    "postanski_broj": "22419"
+  },
+  {
+    "mesto": "Kupušina",
+    "postanski_broj": "25262"
+  },
+  {
+    "mesto": "Kuršumlija",
+    "postanski_broj": "18430"
+  },
+  {
+    "mesto": "Kuršumlijska Banja",
+    "postanski_broj": "18435"
+  },
+  {
+    "mesto": "Kusadak",
+    "postanski_broj": "11425"
+  },
+  {
+    "mesto": "Kusić",
+    "postanski_broj": "26349"
+  },
+  {
+    "mesto": "Kuzmin",
+    "postanski_broj": "22223"
+  },
+  {
+    "mesto": "Kučevo",
+    "postanski_broj": "12240"
+  },
+  {
+    "mesto": "Kušiljevo",
+    "postanski_broj": "35226"
+  },
+  {
+    "mesto": "Kušići",
+    "postanski_broj": "32258"
+  },
+  {
+    "mesto": "Kuštilj",
+    "postanski_broj": "26336"
+  },
+  {
+    "mesto": "Lajkovac",
+    "postanski_broj": "14224"
+  },
+  {
+    "mesto": "Lalinac",
+    "postanski_broj": "18201"
+  },
+  {
+    "mesto": "Lalić",
+    "postanski_broj": "25234"
+  },
+  {
+    "mesto": "Lapovo",
+    "postanski_broj": "34220"
+  },
+  {
+    "mesto": "Lapovo Selo",
+    "postanski_broj": "34223"
+  },
+  {
+    "mesto": "Lazarevac",
+    "postanski_broj": "11550"
+  },
+  {
+    "mesto": "Lazarevo",
+    "postanski_broj": "23241"
+  },
+  {
+    "mesto": "Laznica",
+    "postanski_broj": "12321"
+  },
+  {
+    "mesto": "Laćarak",
+    "postanski_broj": "22221"
+  },
+  {
+    "mesto": "Laćisled",
+    "postanski_broj": "37232"
+  },
+  {
+    "mesto": "Lađevci",
+    "postanski_broj": "36204"
+  },
+  {
+    "mesto": "Lebane",
+    "postanski_broj": "16230"
+  },
+  {
+    "mesto": "Lece",
+    "postanski_broj": "16248"
+  },
+  {
+    "mesto": "Ledinci",
+    "postanski_broj": "21207"
+  },
+  {
+    "mesto": "Lelić",
+    "postanski_broj": "14205"
+  },
+  {
+    "mesto": "Lenovac",
+    "postanski_broj": "19343"
+  },
+  {
+    "mesto": "Lepenac",
+    "postanski_broj": "37224"
+  },
+  {
+    "mesto": "Lepenica",
+    "postanski_broj": "17513"
+  },
+  {
+    "mesto": "Leposavić",
+    "postanski_broj": "38218"
+  },
+  {
+    "mesto": "Leskovac",
+    "postanski_broj": "16000"
+  },
+  {
+    "mesto": "Lešak",
+    "postanski_broj": "38219"
+  },
+  {
+    "mesto": "Lešnica",
+    "postanski_broj": "15307"
+  },
+  {
+    "mesto": "Leštane",
+    "postanski_broj": "11309"
+  },
+  {
+    "mesto": "Ležimir",
+    "postanski_broj": "22207"
+  },
+  {
+    "mesto": "Lipar",
+    "postanski_broj": "25232"
+  },
+  {
+    "mesto": "Lipe",
+    "postanski_broj": "11310"
+  },
+  {
+    "mesto": "Lipolist",
+    "postanski_broj": "15305"
+  },
+  {
+    "mesto": "Lički Hanovi",
+    "postanski_broj": "18245"
+  },
+  {
+    "mesto": "Ljig",
+    "postanski_broj": "14240"
+  },
+  {
+    "mesto": "Ljuba",
+    "postanski_broj": "22255"
+  },
+  {
+    "mesto": "Ljuberadja",
+    "postanski_broj": "18217"
+  },
+  {
+    "mesto": "Ljubiš",
+    "postanski_broj": "31209"
+  },
+  {
+    "mesto": "Ljubovija",
+    "postanski_broj": "15320"
+  },
+  {
+    "mesto": "Ljukovo",
+    "postanski_broj": "22321"
+  },
+  {
+    "mesto": "Ljutovo",
+    "postanski_broj": "24215"
+  },
+  {
+    "mesto": "Lok",
+    "postanski_broj": "21248"
+  },
+  {
+    "mesto": "Lokve",
+    "postanski_broj": "26361"
+  },
+  {
+    "mesto": "Lovćenac",
+    "postanski_broj": "24322"
+  },
+  {
+    "mesto": "Loznica",
+    "postanski_broj": "15300"
+  },
+  {
+    "mesto": "Lozovik",
+    "postanski_broj": "11317"
+  },
+  {
+    "mesto": "Lubnica",
+    "postanski_broj": "19208"
+  },
+  {
+    "mesto": "Lug",
+    "postanski_broj": "21315"
+  },
+  {
+    "mesto": "Lugavcina",
+    "postanski_broj": "11321"
+  },
+  {
+    "mesto": "Luka",
+    "postanski_broj": "19234"
+  },
+  {
+    "mesto": "Lukare",
+    "postanski_broj": "36306"
+  },
+  {
+    "mesto": "Lukino Selo",
+    "postanski_broj": "23224"
+  },
+  {
+    "mesto": "Lukićevo",
+    "postanski_broj": "23261"
+  },
+  {
+    "mesto": "Lukovo",
+    "postanski_broj": "18437"
+  },
+  {
+    "mesto": "Lukovo",
+    "postanski_broj": "19371"
+  },
+  {
+    "mesto": "Lunovo Selo",
+    "postanski_broj": "31203"
+  },
+  {
+    "mesto": "Luzane",
+    "postanski_broj": "18228"
+  },
+  {
+    "mesto": "Lučani",
+    "postanski_broj": "32240"
+  },
+  {
+    "mesto": "Lužnice",
+    "postanski_broj": "34325"
+  },
+  {
+    "mesto": "Maglić",
+    "postanski_broj": "21473"
+  },
+  {
+    "mesto": "Majdan",
+    "postanski_broj": "23333"
+  },
+  {
+    "mesto": "Majdanpek",
+    "postanski_broj": "19250"
+  },
+  {
+    "mesto": "Majilovac",
+    "postanski_broj": "12221"
+  },
+  {
+    "mesto": "Majur",
+    "postanski_broj": "35270"
+  },
+  {
+    "mesto": "Majur",
+    "postanski_broj": "15353"
+  },
+  {
+    "mesto": "Mala Bosna",
+    "postanski_broj": "24217"
+  },
+  {
+    "mesto": "Mala Krsna",
+    "postanski_broj": "11313"
+  },
+  {
+    "mesto": "Mala Moštanica",
+    "postanski_broj": "11261"
+  },
+  {
+    "mesto": "Mala Plana",
+    "postanski_broj": "18423"
+  },
+  {
+    "mesto": "Male Pijace",
+    "postanski_broj": "24416"
+  },
+  {
+    "mesto": "Male Pčelice",
+    "postanski_broj": "34216"
+  },
+  {
+    "mesto": "Mali Beograd",
+    "postanski_broj": "24309"
+  },
+  {
+    "mesto": "Mali Idjoš",
+    "postanski_broj": "24321"
+  },
+  {
+    "mesto": "Mali Izvor",
+    "postanski_broj": "19347"
+  },
+  {
+    "mesto": "Mali Jasenovac",
+    "postanski_broj": "19209"
+  },
+  {
+    "mesto": "Mali Požarevac",
+    "postanski_broj": "11235"
+  },
+  {
+    "mesto": "Mali Zvornik",
+    "postanski_broj": "15318"
+  },
+  {
+    "mesto": "Malo Crniće",
+    "postanski_broj": "12311"
+  },
+  {
+    "mesto": "Malo Krcmare",
+    "postanski_broj": "34212"
+  },
+  {
+    "mesto": "Malošište",
+    "postanski_broj": "18415"
+  },
+  {
+    "mesto": "Malča",
+    "postanski_broj": "18207"
+  },
+  {
+    "mesto": "Mandjelos",
+    "postanski_broj": "22208"
+  },
+  {
+    "mesto": "Manojlovce",
+    "postanski_broj": "16201"
+  },
+  {
+    "mesto": "Maradik",
+    "postanski_broj": "22327"
+  },
+  {
+    "mesto": "Margita",
+    "postanski_broj": "26364"
+  },
+  {
+    "mesto": "Markovac",
+    "postanski_broj": "11325"
+  },
+  {
+    "mesto": "Markovica",
+    "postanski_broj": "32243"
+  },
+  {
+    "mesto": "Marsic",
+    "postanski_broj": "34209"
+  },
+  {
+    "mesto": "Martinci",
+    "postanski_broj": "22222"
+  },
+  {
+    "mesto": "Martonoš",
+    "postanski_broj": "24417"
+  },
+  {
+    "mesto": "Mataruška Banja",
+    "postanski_broj": "36201"
+  },
+  {
+    "mesto": "Mačkat",
+    "postanski_broj": "31312"
+  },
+  {
+    "mesto": "Mačvanska Mitrovica",
+    "postanski_broj": "22202"
+  },
+  {
+    "mesto": "Mačvanski Pričinović",
+    "postanski_broj": "15211"
+  },
+  {
+    "mesto": "Medja",
+    "postanski_broj": "23234"
+  },
+  {
+    "mesto": "Medjurečje",
+    "postanski_broj": "32255"
+  },
+  {
+    "mesto": "Medoševac",
+    "postanski_broj": "18209"
+  },
+  {
+    "mesto": "Medvedja",
+    "postanski_broj": "37244"
+  },
+  {
+    "mesto": "Medvedja",
+    "postanski_broj": "16240"
+  },
+  {
+    "mesto": "Medvedja",
+    "postanski_broj": "35224"
+  },
+  {
+    "mesto": "Melenci",
+    "postanski_broj": "23270"
+  },
+  {
+    "mesto": "Meljak",
+    "postanski_broj": "11426"
+  },
+  {
+    "mesto": "Melnica",
+    "postanski_broj": "12305"
+  },
+  {
+    "mesto": "Merdare",
+    "postanski_broj": "18445"
+  },
+  {
+    "mesto": "Merošina",
+    "postanski_broj": "18252"
+  },
+  {
+    "mesto": "Merćez",
+    "postanski_broj": "18436"
+  },
+  {
+    "mesto": "Metlić",
+    "postanski_broj": "15233"
+  },
+  {
+    "mesto": "Metovnica",
+    "postanski_broj": "19204"
+  },
+  {
+    "mesto": "Mihajlovac",
+    "postanski_broj": "11312"
+  },
+  {
+    "mesto": "Mihajlovac",
+    "postanski_broj": "19322"
+  },
+  {
+    "mesto": "Mihajlovo",
+    "postanski_broj": "23202"
+  },
+  {
+    "mesto": "Mijatovac",
+    "postanski_broj": "35236"
+  },
+  {
+    "mesto": "Milentija",
+    "postanski_broj": "37227"
+  },
+  {
+    "mesto": "Miletićevo",
+    "postanski_broj": "26373"
+  },
+  {
+    "mesto": "Mileševo",
+    "postanski_broj": "21227"
+  },
+  {
+    "mesto": "Miloševac",
+    "postanski_broj": "11318"
+  },
+  {
+    "mesto": "Miloševo",
+    "postanski_broj": "35268"
+  },
+  {
+    "mesto": "Milutovac",
+    "postanski_broj": "37246"
+  },
+  {
+    "mesto": "Minićevo",
+    "postanski_broj": "19340"
+  },
+  {
+    "mesto": "Mionica",
+    "postanski_broj": "14242"
+  },
+  {
+    "mesto": "Mirosaljci",
+    "postanski_broj": "11567"
+  },
+  {
+    "mesto": "Miroševce",
+    "postanski_broj": "16204"
+  },
+  {
+    "mesto": "Mitrovac",
+    "postanski_broj": "31251"
+  },
+  {
+    "mesto": "Mišićevo",
+    "postanski_broj": "24211"
+  },
+  {
+    "mesto": "Mladenovac",
+    "postanski_broj": "11400"
+  },
+  {
+    "mesto": "Mladenovo",
+    "postanski_broj": "21422"
+  },
+  {
+    "mesto": "Mojsinje",
+    "postanski_broj": "32211"
+  },
+  {
+    "mesto": "Mokra Gora",
+    "postanski_broj": "31243"
+  },
+  {
+    "mesto": "Mokranja",
+    "postanski_broj": "19317"
+  },
+  {
+    "mesto": "Mokrin",
+    "postanski_broj": "23305"
+  },
+  {
+    "mesto": "Mol",
+    "postanski_broj": "24435"
+  },
+  {
+    "mesto": "Molovin",
+    "postanski_broj": "22256"
+  },
+  {
+    "mesto": "Morović",
+    "postanski_broj": "22245"
+  },
+  {
+    "mesto": "Mozgovo",
+    "postanski_broj": "18229"
+  },
+  {
+    "mesto": "Mošorin",
+    "postanski_broj": "21245"
+  },
+  {
+    "mesto": "Mramor",
+    "postanski_broj": "18251"
+  },
+  {
+    "mesto": "Mramorak",
+    "postanski_broj": "26226"
+  },
+  {
+    "mesto": "Mrčajevci",
+    "postanski_broj": "32210"
+  },
+  {
+    "mesto": "Muhovac",
+    "postanski_broj": "17529"
+  },
+  {
+    "mesto": "Muzlja",
+    "postanski_broj": "23206"
+  },
+  {
+    "mesto": "Nadalj",
+    "postanski_broj": "21216"
+  },
+  {
+    "mesto": "Nakovo",
+    "postanski_broj": "23311"
+  },
+  {
+    "mesto": "Natalinci",
+    "postanski_broj": "34313"
+  },
+  {
+    "mesto": "Negotin",
+    "postanski_broj": "19300"
+  },
+  {
+    "mesto": "Neresnica",
+    "postanski_broj": "12242"
+  },
+  {
+    "mesto": "Neuzina",
+    "postanski_broj": "23245"
+  },
+  {
+    "mesto": "Neštin",
+    "postanski_broj": "21314"
+  },
+  {
+    "mesto": "Nikinci",
+    "postanski_broj": "22422"
+  },
+  {
+    "mesto": "Nikolinci",
+    "postanski_broj": "26322"
+  },
+  {
+    "mesto": "Nikolićevo",
+    "postanski_broj": "19311"
+  },
+  {
+    "mesto": "Niš",
+    "postanski_broj": "18000"
+  },
+  {
+    "mesto": "Niševac",
+    "postanski_broj": "18366"
+  },
+  {
+    "mesto": "Niška Banja",
+    "postanski_broj": "18205"
+  },
+  {
+    "mesto": "Njegoševo",
+    "postanski_broj": "24311"
+  },
+  {
+    "mesto": "Nova Crnja",
+    "postanski_broj": "23218"
+  },
+  {
+    "mesto": "Nova Crvenka",
+    "postanski_broj": "25224"
+  },
+  {
+    "mesto": "Nova Gajdobra",
+    "postanski_broj": "21431"
+  },
+  {
+    "mesto": "Nova Pazova",
+    "postanski_broj": "22330"
+  },
+  {
+    "mesto": "Nova Varoš",
+    "postanski_broj": "31320"
+  },
+  {
+    "mesto": "Novi Banovci",
+    "postanski_broj": "22304"
+  },
+  {
+    "mesto": "Novi Beograd",
+    "postanski_broj": "11070"
+  },
+  {
+    "mesto": "Novi Bečej",
+    "postanski_broj": "23272"
+  },
+  {
+    "mesto": "Novi Itebej",
+    "postanski_broj": "23236"
+  },
+  {
+    "mesto": "Novi Karlovci",
+    "postanski_broj": "22322"
+  },
+  {
+    "mesto": "Novi Kneževac",
+    "postanski_broj": "23330"
+  },
+  {
+    "mesto": "Novi Kozarci",
+    "postanski_broj": "23313"
+  },
+  {
+    "mesto": "Novi Kozjak",
+    "postanski_broj": "26353"
+  },
+  {
+    "mesto": "Novi Pazar",
+    "postanski_broj": "36300"
+  },
+  {
+    "mesto": "Novi Sad",
+    "postanski_broj": "21000"
+  },
+  {
+    "mesto": "Novi Slankamen",
+    "postanski_broj": "22323"
+  },
+  {
+    "mesto": "Novi Zednik",
+    "postanski_broj": "24223"
+  },
+  {
+    "mesto": "Novo Lanište",
+    "postanski_broj": "35271"
+  },
+  {
+    "mesto": "Novo Miloševo",
+    "postanski_broj": "23273"
+  },
+  {
+    "mesto": "Novo Orahovo",
+    "postanski_broj": "24351"
+  },
+  {
+    "mesto": "Novo Selo",
+    "postanski_broj": "36216"
+  },
+  {
+    "mesto": "Novo Selo",
+    "postanski_broj": "18250"
+  },
+  {
+    "mesto": "Noćaj",
+    "postanski_broj": "22203"
+  },
+  {
+    "mesto": "Obrenovac",
+    "postanski_broj": "11500"
+  },
+  {
+    "mesto": "Obrez",
+    "postanski_broj": "22417"
+  },
+  {
+    "mesto": "Obrez",
+    "postanski_broj": "37266"
+  },
+  {
+    "mesto": "Obrovac",
+    "postanski_broj": "21423"
+  },
+  {
+    "mesto": "Odzaci",
+    "postanski_broj": "25250"
+  },
+  {
+    "mesto": "Ogar",
+    "postanski_broj": "22416"
+  },
+  {
+    "mesto": "Omoljica",
+    "postanski_broj": "26230"
+  },
+  {
+    "mesto": "Oparić",
+    "postanski_broj": "35267"
+  },
+  {
+    "mesto": "Opovo",
+    "postanski_broj": "26204"
+  },
+  {
+    "mesto": "Orane",
+    "postanski_broj": "16233"
+  },
+  {
+    "mesto": "Oraovica",
+    "postanski_broj": "17557"
+  },
+  {
+    "mesto": "Orašac",
+    "postanski_broj": "34308"
+  },
+  {
+    "mesto": "Oresković",
+    "postanski_broj": "24344"
+  },
+  {
+    "mesto": "Orid",
+    "postanski_broj": "15213"
+  },
+  {
+    "mesto": "Orlovat",
+    "postanski_broj": "23263"
+  },
+  {
+    "mesto": "Orom",
+    "postanski_broj": "24207"
+  },
+  {
+    "mesto": "Osanica",
+    "postanski_broj": "12317"
+  },
+  {
+    "mesto": "Osečina",
+    "postanski_broj": "14253"
+  },
+  {
+    "mesto": "Osipaonica",
+    "postanski_broj": "11314"
+  },
+  {
+    "mesto": "Osnić",
+    "postanski_broj": "19378"
+  },
+  {
+    "mesto": "Osreci",
+    "postanski_broj": "37281"
+  },
+  {
+    "mesto": "Ostojićevo",
+    "postanski_broj": "23326"
+  },
+  {
+    "mesto": "Ostrovica",
+    "postanski_broj": "18312"
+  },
+  {
+    "mesto": "Ostružnica",
+    "postanski_broj": "11251"
+  },
+  {
+    "mesto": "Ovča",
+    "postanski_broj": "11212"
+  },
+  {
+    "mesto": "Ovčar Banja",
+    "postanski_broj": "32242"
+  },
+  {
+    "mesto": "Padej",
+    "postanski_broj": "23325"
+  },
+  {
+    "mesto": "Padež",
+    "postanski_broj": "37257"
+  },
+  {
+    "mesto": "Padina",
+    "postanski_broj": "26215"
+  },
+  {
+    "mesto": "Padinska Skela",
+    "postanski_broj": "11213"
+  },
+  {
+    "mesto": "Palilula",
+    "postanski_broj": "18363"
+  },
+  {
+    "mesto": "Palić",
+    "postanski_broj": "24413"
+  },
+  {
+    "mesto": "Pambukovica",
+    "postanski_broj": "14213"
+  },
+  {
+    "mesto": "Panonija",
+    "postanski_broj": "24330"
+  },
+  {
+    "mesto": "Pančevo",
+    "postanski_broj": "26000"
+  },
+  {
+    "mesto": "Parage",
+    "postanski_broj": "21434"
+  },
+  {
+    "mesto": "Paraćin",
+    "postanski_broj": "35250"
+  },
+  {
+    "mesto": "Parunovac",
+    "postanski_broj": "37201"
+  },
+  {
+    "mesto": "Pasjane",
+    "postanski_broj": "38266"
+  },
+  {
+    "mesto": "Pavliš",
+    "postanski_broj": "26333"
+  },
+  {
+    "mesto": "Pačir",
+    "postanski_broj": "24342"
+  },
+  {
+    "mesto": "Pecanjevce",
+    "postanski_broj": "16251"
+  },
+  {
+    "mesto": "Pejkovac",
+    "postanski_broj": "18413"
+  },
+  {
+    "mesto": "Pepeljevac",
+    "postanski_broj": "37231"
+  },
+  {
+    "mesto": "Perlez",
+    "postanski_broj": "23260"
+  },
+  {
+    "mesto": "Perućac",
+    "postanski_broj": "31256"
+  },
+  {
+    "mesto": "Petlovača",
+    "postanski_broj": "15304"
+  },
+  {
+    "mesto": "Petrovac Na Mlavi",
+    "postanski_broj": "12300"
+  },
+  {
+    "mesto": "Petrovaradin",
+    "postanski_broj": "21131"
+  },
+  {
+    "mesto": "Petrovcic",
+    "postanski_broj": "11282"
+  },
+  {
+    "mesto": "Pećinci",
+    "postanski_broj": "22410"
+  },
+  {
+    "mesto": "Pećka",
+    "postanski_broj": "14207"
+  },
+  {
+    "mesto": "Pinosava",
+    "postanski_broj": "11226"
+  },
+  {
+    "mesto": "Pirot",
+    "postanski_broj": "18300"
+  },
+  {
+    "mesto": "Pivnice",
+    "postanski_broj": "21469"
+  },
+  {
+    "mesto": "Plana",
+    "postanski_broj": "35247"
+  },
+  {
+    "mesto": "Plandište",
+    "postanski_broj": "26360"
+  },
+  {
+    "mesto": "Planinica",
+    "postanski_broj": "19207"
+  },
+  {
+    "mesto": "Platičevo",
+    "postanski_broj": "22420"
+  },
+  {
+    "mesto": "Plavna",
+    "postanski_broj": "21428"
+  },
+  {
+    "mesto": "Plažane",
+    "postanski_broj": "35212"
+  },
+  {
+    "mesto": "Ples",
+    "postanski_broj": "37238"
+  },
+  {
+    "mesto": "Ploča",
+    "postanski_broj": "37237"
+  },
+  {
+    "mesto": "Pločica",
+    "postanski_broj": "26229"
+  },
+  {
+    "mesto": "Pobeda",
+    "postanski_broj": "24313"
+  },
+  {
+    "mesto": "Podunavci",
+    "postanski_broj": "36215"
+  },
+  {
+    "mesto": "Podvis",
+    "postanski_broj": "19362"
+  },
+  {
+    "mesto": "Podvrška",
+    "postanski_broj": "19321"
+  },
+  {
+    "mesto": "Poganovo",
+    "postanski_broj": "18326"
+  },
+  {
+    "mesto": "Pojate",
+    "postanski_broj": "37214"
+  },
+  {
+    "mesto": "Poljana",
+    "postanski_broj": "12372"
+  },
+  {
+    "mesto": "Popinci",
+    "postanski_broj": "22428"
+  },
+  {
+    "mesto": "Popovac",
+    "postanski_broj": "35254"
+  },
+  {
+    "mesto": "Popovac",
+    "postanski_broj": "18260"
+  },
+  {
+    "mesto": "Popučke",
+    "postanski_broj": "14221"
+  },
+  {
+    "mesto": "Porodin",
+    "postanski_broj": "12375"
+  },
+  {
+    "mesto": "Potočac",
+    "postanski_broj": "35207"
+  },
+  {
+    "mesto": "Poćuta",
+    "postanski_broj": "14206"
+  },
+  {
+    "mesto": "Počekovina",
+    "postanski_broj": "37243"
+  },
+  {
+    "mesto": "Požarevac",
+    "postanski_broj": "12000"
+  },
+  {
+    "mesto": "Požega",
+    "postanski_broj": "31210"
+  },
+  {
+    "mesto": "Prahovo",
+    "postanski_broj": "19330"
+  },
+  {
+    "mesto": "Pranjani",
+    "postanski_broj": "32308"
+  },
+  {
+    "mesto": "Predejane",
+    "postanski_broj": "16222"
+  },
+  {
+    "mesto": "Prekonoga",
+    "postanski_broj": "18365"
+  },
+  {
+    "mesto": "Preljina",
+    "postanski_broj": "32212"
+  },
+  {
+    "mesto": "Prevešt",
+    "postanski_broj": "35264"
+  },
+  {
+    "mesto": "Preševo",
+    "postanski_broj": "17523"
+  },
+  {
+    "mesto": "Prhovo",
+    "postanski_broj": "22442"
+  },
+  {
+    "mesto": "Priboj",
+    "postanski_broj": "31330"
+  },
+  {
+    "mesto": "Priboj Vranjski",
+    "postanski_broj": "17511"
+  },
+  {
+    "mesto": "Pricevic",
+    "postanski_broj": "14251"
+  },
+  {
+    "mesto": "Prigrevica",
+    "postanski_broj": "25263"
+  },
+  {
+    "mesto": "Prijepolje",
+    "postanski_broj": "31300"
+  },
+  {
+    "mesto": "Prilicki Kiseljak",
+    "postanski_broj": "32252"
+  },
+  {
+    "mesto": "Prilužje",
+    "postanski_broj": "38213"
+  },
+  {
+    "mesto": "Privina Glava",
+    "postanski_broj": "22257"
+  },
+  {
+    "mesto": "Prnjavor Mačvanski",
+    "postanski_broj": "15306"
+  },
+  {
+    "mesto": "Progar",
+    "postanski_broj": "11280"
+  },
+  {
+    "mesto": "Prokuplje",
+    "postanski_broj": "18400"
+  },
+  {
+    "mesto": "Prolom",
+    "postanski_broj": "18433"
+  },
+  {
+    "mesto": "Provo",
+    "postanski_broj": "15215"
+  },
+  {
+    "mesto": "Pružatovac",
+    "postanski_broj": "11413"
+  },
+  {
+    "mesto": "Pukovac",
+    "postanski_broj": "18255"
+  },
+  {
+    "mesto": "Putinci",
+    "postanski_broj": "22404"
+  },
+  {
+    "mesto": "Rabrovo",
+    "postanski_broj": "12254"
+  },
+  {
+    "mesto": "Radalj",
+    "postanski_broj": "15321"
+  },
+  {
+    "mesto": "Radenković",
+    "postanski_broj": "22206"
+  },
+  {
+    "mesto": "Radinac",
+    "postanski_broj": "11311"
+  },
+  {
+    "mesto": "Radičević",
+    "postanski_broj": "21225"
+  },
+  {
+    "mesto": "Radljevo",
+    "postanski_broj": "14211"
+  },
+  {
+    "mesto": "Radojevo",
+    "postanski_broj": "23221"
+  },
+  {
+    "mesto": "Radujevac",
+    "postanski_broj": "19334"
+  },
+  {
+    "mesto": "Rajac",
+    "postanski_broj": "19314"
+  },
+  {
+    "mesto": "Rajković",
+    "postanski_broj": "14202"
+  },
+  {
+    "mesto": "Rakinac",
+    "postanski_broj": "11327"
+  },
+  {
+    "mesto": "Rakovac",
+    "postanski_broj": "21299"
+  },
+  {
+    "mesto": "Ralja",
+    "postanski_broj": "11233"
+  },
+  {
+    "mesto": "Ranilovic",
+    "postanski_broj": "34302"
+  },
+  {
+    "mesto": "Ranilug",
+    "postanski_broj": "38267"
+  },
+  {
+    "mesto": "Ranovac",
+    "postanski_broj": "12304"
+  },
+  {
+    "mesto": "Rastina",
+    "postanski_broj": "25283"
+  },
+  {
+    "mesto": "Rataje",
+    "postanski_broj": "37236"
+  },
+  {
+    "mesto": "Ratari",
+    "postanski_broj": "11411"
+  },
+  {
+    "mesto": "Ratina",
+    "postanski_broj": "36212"
+  },
+  {
+    "mesto": "Ratkovo",
+    "postanski_broj": "25253"
+  },
+  {
+    "mesto": "Ravna Dubrava",
+    "postanski_broj": "18246"
+  },
+  {
+    "mesto": "Ravna Reka",
+    "postanski_broj": "35235"
+  },
+  {
+    "mesto": "Ravni",
+    "postanski_broj": "31206"
+  },
+  {
+    "mesto": "Ravni Topolovac",
+    "postanski_broj": "23212"
+  },
+  {
+    "mesto": "Ravnje",
+    "postanski_broj": "22205"
+  },
+  {
+    "mesto": "Ravno Selo",
+    "postanski_broj": "21471"
+  },
+  {
+    "mesto": "Razbojna",
+    "postanski_broj": "37223"
+  },
+  {
+    "mesto": "Razgojna",
+    "postanski_broj": "16252"
+  },
+  {
+    "mesto": "Rača",
+    "postanski_broj": "18440"
+  },
+  {
+    "mesto": "Rača Kragujevačka",
+    "postanski_broj": "34210"
+  },
+  {
+    "mesto": "Rašanac",
+    "postanski_broj": "12315"
+  },
+  {
+    "mesto": "Raševica",
+    "postanski_broj": "35206"
+  },
+  {
+    "mesto": "Raška",
+    "postanski_broj": "36350"
+  },
+  {
+    "mesto": "Ražana",
+    "postanski_broj": "31265"
+  },
+  {
+    "mesto": "Ražanj",
+    "postanski_broj": "37215"
+  },
+  {
+    "mesto": "Rekovac",
+    "postanski_broj": "35260"
+  },
+  {
+    "mesto": "Reljan",
+    "postanski_broj": "17556"
+  },
+  {
+    "mesto": "Resavica",
+    "postanski_broj": "35237"
+  },
+  {
+    "mesto": "Resnik",
+    "postanski_broj": "34225"
+  },
+  {
+    "mesto": "Rgotina",
+    "postanski_broj": "19214"
+  },
+  {
+    "mesto": "Ribare",
+    "postanski_broj": "37259"
+  },
+  {
+    "mesto": "Ribare",
+    "postanski_broj": "35220"
+  },
+  {
+    "mesto": "Ribari",
+    "postanski_broj": "15310"
+  },
+  {
+    "mesto": "Ribarice",
+    "postanski_broj": "36309"
+  },
+  {
+    "mesto": "Ribarska Banja",
+    "postanski_broj": "37205"
+  },
+  {
+    "mesto": "Ridjica",
+    "postanski_broj": "25280"
+  },
+  {
+    "mesto": "Ripanj",
+    "postanski_broj": "11232"
+  },
+  {
+    "mesto": "Ristovac",
+    "postanski_broj": "17521"
+  },
+  {
+    "mesto": "Ritisevo",
+    "postanski_broj": "26331"
+  },
+  {
+    "mesto": "Rogača",
+    "postanski_broj": "11453"
+  },
+  {
+    "mesto": "Rogačica",
+    "postanski_broj": "31255"
+  },
+  {
+    "mesto": "Roge",
+    "postanski_broj": "31237"
+  },
+  {
+    "mesto": "Rogljevo",
+    "postanski_broj": "19318"
+  },
+  {
+    "mesto": "Roćevci",
+    "postanski_broj": "36205"
+  },
+  {
+    "mesto": "Rožanstvo",
+    "postanski_broj": "31208"
+  },
+  {
+    "mesto": "Rudna Glava",
+    "postanski_broj": "19257"
+  },
+  {
+    "mesto": "Rudnica",
+    "postanski_broj": "36353"
+  },
+  {
+    "mesto": "Rudnik",
+    "postanski_broj": "32313"
+  },
+  {
+    "mesto": "Rudno",
+    "postanski_broj": "36222"
+  },
+  {
+    "mesto": "Rudovci",
+    "postanski_broj": "11566"
+  },
+  {
+    "mesto": "Ruma",
+    "postanski_broj": "22400"
+  },
+  {
+    "mesto": "Rumenka",
+    "postanski_broj": "21201"
+  },
+  {
+    "mesto": "Ruplje",
+    "postanski_broj": "16223"
+  },
+  {
+    "mesto": "Ruski Krstur",
+    "postanski_broj": "25233"
+  },
+  {
+    "mesto": "Rusko Selo",
+    "postanski_broj": "23314"
+  },
+  {
+    "mesto": "Rutevac",
+    "postanski_broj": "18224"
+  },
+  {
+    "mesto": "Rušanj",
+    "postanski_broj": "11194"
+  },
+  {
+    "mesto": "Sajan",
+    "postanski_broj": "23324"
+  },
+  {
+    "mesto": "Sakule",
+    "postanski_broj": "26206"
+  },
+  {
+    "mesto": "Salaš",
+    "postanski_broj": "19224"
+  },
+  {
+    "mesto": "Salaš Noćajski",
+    "postanski_broj": "22204"
+  },
+  {
+    "mesto": "Samaila",
+    "postanski_broj": "36202"
+  },
+  {
+    "mesto": "Samoš",
+    "postanski_broj": "26350"
+  },
+  {
+    "mesto": "Sanad",
+    "postanski_broj": "23331"
+  },
+  {
+    "mesto": "Saraorci",
+    "postanski_broj": "11315"
+  },
+  {
+    "mesto": "Sastav Reka",
+    "postanski_broj": "16213"
+  },
+  {
+    "mesto": "Sastavci",
+    "postanski_broj": "31335"
+  },
+  {
+    "mesto": "Savinac",
+    "postanski_broj": "19377"
+  },
+  {
+    "mesto": "Savino Selo",
+    "postanski_broj": "21467"
+  },
+  {
+    "mesto": "Sedlare",
+    "postanski_broj": "35211"
+  },
+  {
+    "mesto": "Sefkerin",
+    "postanski_broj": "26203"
+  },
+  {
+    "mesto": "Selenča",
+    "postanski_broj": "21425"
+  },
+  {
+    "mesto": "Seleuš",
+    "postanski_broj": "26351"
+  },
+  {
+    "mesto": "Selevac",
+    "postanski_broj": "11407"
+  },
+  {
+    "mesto": "Senje",
+    "postanski_broj": "35233"
+  },
+  {
+    "mesto": "Senjski Rudnik",
+    "postanski_broj": "35234"
+  },
+  {
+    "mesto": "Senta",
+    "postanski_broj": "24400"
+  },
+  {
+    "mesto": "Sevojno",
+    "postanski_broj": "31205"
+  },
+  {
+    "mesto": "Seča Reka",
+    "postanski_broj": "31262"
+  },
+  {
+    "mesto": "Sečanj",
+    "postanski_broj": "23240"
+  },
+  {
+    "mesto": "Sibač",
+    "postanski_broj": "22440"
+  },
+  {
+    "mesto": "Sibnica",
+    "postanski_broj": "11454"
+  },
+  {
+    "mesto": "Sijarinska Banja",
+    "postanski_broj": "16246"
+  },
+  {
+    "mesto": "Sikirica",
+    "postanski_broj": "35256"
+  },
+  {
+    "mesto": "Sikole",
+    "postanski_broj": "19225"
+  },
+  {
+    "mesto": "Silbaš",
+    "postanski_broj": "21433"
+  },
+  {
+    "mesto": "Simićevo",
+    "postanski_broj": "12373"
+  },
+  {
+    "mesto": "Siokovac",
+    "postanski_broj": "35203"
+  },
+  {
+    "mesto": "Sip",
+    "postanski_broj": "19326"
+  },
+  {
+    "mesto": "Sirig",
+    "postanski_broj": "21214"
+  },
+  {
+    "mesto": "Sirogojno",
+    "postanski_broj": "31207"
+  },
+  {
+    "mesto": "Sirča",
+    "postanski_broj": "36208"
+  },
+  {
+    "mesto": "Sivac",
+    "postanski_broj": "25223"
+  },
+  {
+    "mesto": "Sićevo",
+    "postanski_broj": "18311"
+  },
+  {
+    "mesto": "Sjenica",
+    "postanski_broj": "36310"
+  },
+  {
+    "mesto": "Skela",
+    "postanski_broj": "11509"
+  },
+  {
+    "mesto": "Skobalj",
+    "postanski_broj": "11322"
+  },
+  {
+    "mesto": "Skorenovac",
+    "postanski_broj": "26228"
+  },
+  {
+    "mesto": "Slatina",
+    "postanski_broj": "32224"
+  },
+  {
+    "mesto": "Slatina",
+    "postanski_broj": "19324"
+  },
+  {
+    "mesto": "Slavkovica",
+    "postanski_broj": "14245"
+  },
+  {
+    "mesto": "Slovac",
+    "postanski_broj": "14223"
+  },
+  {
+    "mesto": "Smederevo",
+    "postanski_broj": "11300"
+  },
+  {
+    "mesto": "Smederevska Palanka",
+    "postanski_broj": "11420"
+  },
+  {
+    "mesto": "Smilovci",
+    "postanski_broj": "18323"
+  },
+  {
+    "mesto": "Smoljinac",
+    "postanski_broj": "12312"
+  },
+  {
+    "mesto": "Soko Banja",
+    "postanski_broj": "18230"
+  },
+  {
+    "mesto": "Sombor",
+    "postanski_broj": "25000"
+  },
+  {
+    "mesto": "Sonta",
+    "postanski_broj": "25264"
+  },
+  {
+    "mesto": "Sopot",
+    "postanski_broj": "11450"
+  },
+  {
+    "mesto": "Sopoćani",
+    "postanski_broj": "36308"
+  },
+  {
+    "mesto": "Sot",
+    "postanski_broj": "22243"
+  },
+  {
+    "mesto": "Sočanica",
+    "postanski_broj": "38217"
+  },
+  {
+    "mesto": "Srbobran",
+    "postanski_broj": "21480"
+  },
+  {
+    "mesto": "Srednjevo",
+    "postanski_broj": "12253"
+  },
+  {
+    "mesto": "Sremska Kamenica",
+    "postanski_broj": "21208"
+  },
+  {
+    "mesto": "Sremska Mitrovica",
+    "postanski_broj": "22000"
+  },
+  {
+    "mesto": "Sremska Rača",
+    "postanski_broj": "22247"
+  },
+  {
+    "mesto": "Sremski Karlovci",
+    "postanski_broj": "21205"
+  },
+  {
+    "mesto": "Sremski Mihaljevci",
+    "postanski_broj": "22413"
+  },
+  {
+    "mesto": "Sremčica",
+    "postanski_broj": "11253"
+  },
+  {
+    "mesto": "Srpska Crnja",
+    "postanski_broj": "23220"
+  },
+  {
+    "mesto": "Srpski Itebej",
+    "postanski_broj": "23233"
+  },
+  {
+    "mesto": "Srpski Krstur",
+    "postanski_broj": "23334"
+  },
+  {
+    "mesto": "Srpski Miletić",
+    "postanski_broj": "25244"
+  },
+  {
+    "mesto": "Stajićevo",
+    "postanski_broj": "23204"
+  },
+  {
+    "mesto": "Stalać",
+    "postanski_broj": "37212"
+  },
+  {
+    "mesto": "Stanišić",
+    "postanski_broj": "25284"
+  },
+  {
+    "mesto": "Stapar",
+    "postanski_broj": "25240"
+  },
+  {
+    "mesto": "Stara Moravica",
+    "postanski_broj": "24340"
+  },
+  {
+    "mesto": "Stara Pazova",
+    "postanski_broj": "22300"
+  },
+  {
+    "mesto": "Stari Banovci",
+    "postanski_broj": "22305"
+  },
+  {
+    "mesto": "Stari Lec",
+    "postanski_broj": "26371"
+  },
+  {
+    "mesto": "Stari Ledinci",
+    "postanski_broj": "21206"
+  },
+  {
+    "mesto": "Stari Slankamen",
+    "postanski_broj": "22329"
+  },
+  {
+    "mesto": "Stari Žednik",
+    "postanski_broj": "24224"
+  },
+  {
+    "mesto": "Staro Selo",
+    "postanski_broj": "11324"
+  },
+  {
+    "mesto": "Starčevo",
+    "postanski_broj": "26232"
+  },
+  {
+    "mesto": "Stave",
+    "postanski_broj": "14255"
+  },
+  {
+    "mesto": "Stejanovci",
+    "postanski_broj": "22405"
+  },
+  {
+    "mesto": "Stenjevac",
+    "postanski_broj": "35215"
+  },
+  {
+    "mesto": "Stepanovićevo",
+    "postanski_broj": "21212"
+  },
+  {
+    "mesto": "Stepojevac",
+    "postanski_broj": "11564"
+  },
+  {
+    "mesto": "Stojnik",
+    "postanski_broj": "34307"
+  },
+  {
+    "mesto": "Stopanja",
+    "postanski_broj": "37242"
+  },
+  {
+    "mesto": "Stragari",
+    "postanski_broj": "34323"
+  },
+  {
+    "mesto": "Straža",
+    "postanski_broj": "26345"
+  },
+  {
+    "mesto": "Strelac",
+    "postanski_broj": "18332"
+  },
+  {
+    "mesto": "Strižilo",
+    "postanski_broj": "35269"
+  },
+  {
+    "mesto": "Stubal",
+    "postanski_broj": "17512"
+  },
+  {
+    "mesto": "Stubline",
+    "postanski_broj": "11507"
+  },
+  {
+    "mesto": "Studenica",
+    "postanski_broj": "36343"
+  },
+  {
+    "mesto": "Subotica",
+    "postanski_broj": "24000"
+  },
+  {
+    "mesto": "Subotica Kod Svilajnca",
+    "postanski_broj": "35209"
+  },
+  {
+    "mesto": "Subotinac",
+    "postanski_broj": "18227"
+  },
+  {
+    "mesto": "Subotište",
+    "postanski_broj": "22414"
+  },
+  {
+    "mesto": "Sukovo",
+    "postanski_broj": "18322"
+  },
+  {
+    "mesto": "Sumrakovac",
+    "postanski_broj": "19376"
+  },
+  {
+    "mesto": "Supska",
+    "postanski_broj": "35228"
+  },
+  {
+    "mesto": "Surduk",
+    "postanski_broj": "22307"
+  },
+  {
+    "mesto": "Surdulica",
+    "postanski_broj": "17530"
+  },
+  {
+    "mesto": "Surjan",
+    "postanski_broj": "23254"
+  },
+  {
+    "mesto": "Surčin",
+    "postanski_broj": "11271"
+  },
+  {
+    "mesto": "Susek",
+    "postanski_broj": "21313"
+  },
+  {
+    "mesto": "Sutjeska",
+    "postanski_broj": "23244"
+  },
+  {
+    "mesto": "Suvi Do",
+    "postanski_broj": "12322"
+  },
+  {
+    "mesto": "Sveti Ilija",
+    "postanski_broj": "17508"
+  },
+  {
+    "mesto": "Svetozar Miletić",
+    "postanski_broj": "25211"
+  },
+  {
+    "mesto": "Svilajnac",
+    "postanski_broj": "35210"
+  },
+  {
+    "mesto": "Svileuva",
+    "postanski_broj": "15221"
+  },
+  {
+    "mesto": "Svilojevo",
+    "postanski_broj": "25265"
+  },
+  {
+    "mesto": "Svojnovo",
+    "postanski_broj": "35259"
+  },
+  {
+    "mesto": "Svođe",
+    "postanski_broj": "16212"
+  },
+  {
+    "mesto": "Svrljig",
+    "postanski_broj": "18360"
+  },
+  {
+    "mesto": "Takovo",
+    "postanski_broj": "32304"
+  },
+  {
+    "mesto": "Taraš",
+    "postanski_broj": "23209"
+  },
+  {
+    "mesto": "Tavankut",
+    "postanski_broj": "24214"
+  },
+  {
+    "mesto": "Tekeriš",
+    "postanski_broj": "15234"
+  },
+  {
+    "mesto": "Tekija",
+    "postanski_broj": "19325"
+  },
+  {
+    "mesto": "Telečka",
+    "postanski_broj": "25222"
+  },
+  {
+    "mesto": "Temerin",
+    "postanski_broj": "21235"
+  },
+  {
+    "mesto": "Temska",
+    "postanski_broj": "18355"
+  },
+  {
+    "mesto": "Tešica",
+    "postanski_broj": "18212"
+  },
+  {
+    "mesto": "Titel",
+    "postanski_broj": "21240"
+  },
+  {
+    "mesto": "Toba",
+    "postanski_broj": "23222"
+  },
+  {
+    "mesto": "Tomaševac",
+    "postanski_broj": "23262"
+  },
+  {
+    "mesto": "Topola",
+    "postanski_broj": "34310"
+  },
+  {
+    "mesto": "Topolovnik",
+    "postanski_broj": "12226"
+  },
+  {
+    "mesto": "Toponica",
+    "postanski_broj": "34243"
+  },
+  {
+    "mesto": "Torda",
+    "postanski_broj": "23214"
+  },
+  {
+    "mesto": "Tornjoš",
+    "postanski_broj": "24352"
+  },
+  {
+    "mesto": "Totovo Selo",
+    "postanski_broj": "24427"
+  },
+  {
+    "mesto": "Tovariševo",
+    "postanski_broj": "21424"
+  },
+  {
+    "mesto": "Trbušani",
+    "postanski_broj": "32205"
+  },
+  {
+    "mesto": "Tresnjevac",
+    "postanski_broj": "24426"
+  },
+  {
+    "mesto": "Trešnjevica",
+    "postanski_broj": "35248"
+  },
+  {
+    "mesto": "Trgovište",
+    "postanski_broj": "17525"
+  },
+  {
+    "mesto": "Trnava",
+    "postanski_broj": "32221"
+  },
+  {
+    "mesto": "Trnavci",
+    "postanski_broj": "37235"
+  },
+  {
+    "mesto": "Trnjane",
+    "postanski_broj": "19306"
+  },
+  {
+    "mesto": "Trstenik",
+    "postanski_broj": "37240"
+  },
+  {
+    "mesto": "Trupale",
+    "postanski_broj": "18211"
+  },
+  {
+    "mesto": "Tršić",
+    "postanski_broj": "15303"
+  },
+  {
+    "mesto": "Tulare",
+    "postanski_broj": "16247"
+  },
+  {
+    "mesto": "Turekovac",
+    "postanski_broj": "16231"
+  },
+  {
+    "mesto": "Turija",
+    "postanski_broj": "21215"
+  },
+  {
+    "mesto": "Tutin",
+    "postanski_broj": "36320"
+  },
+  {
+    "mesto": "Ub",
+    "postanski_broj": "14210"
+  },
+  {
+    "mesto": "Ugao",
+    "postanski_broj": "36313"
+  },
+  {
+    "mesto": "Ugrinovci",
+    "postanski_broj": "11277"
+  },
+  {
+    "mesto": "Ugrinovci",
+    "postanski_broj": "32314"
+  },
+  {
+    "mesto": "Uljma",
+    "postanski_broj": "26330"
+  },
+  {
+    "mesto": "Umka",
+    "postanski_broj": "11260"
+  },
+  {
+    "mesto": "Umčari",
+    "postanski_broj": "11430"
+  },
+  {
+    "mesto": "Urovica",
+    "postanski_broj": "19305"
+  },
+  {
+    "mesto": "Utrine",
+    "postanski_broj": "24437"
+  },
+  {
+    "mesto": "Uzdin",
+    "postanski_broj": "26216"
+  },
+  {
+    "mesto": "Uzovnica",
+    "postanski_broj": "15319"
+  },
+  {
+    "mesto": "Ušće",
+    "postanski_broj": "36342"
+  },
+  {
+    "mesto": "Užice",
+    "postanski_broj": "31000"
+  },
+  {
+    "mesto": "Vajska",
+    "postanski_broj": "21426"
+  },
+  {
+    "mesto": "Valjevo",
+    "postanski_broj": "14000"
+  },
+  {
+    "mesto": "Varda",
+    "postanski_broj": "31263"
+  },
+  {
+    "mesto": "Varna",
+    "postanski_broj": "15232"
+  },
+  {
+    "mesto": "Varvarin",
+    "postanski_broj": "37260"
+  },
+  {
+    "mesto": "Vasica",
+    "postanski_broj": "22241"
+  },
+  {
+    "mesto": "Vasilj",
+    "postanski_broj": "19367"
+  },
+  {
+    "mesto": "Vatin",
+    "postanski_broj": "26337"
+  },
+  {
+    "mesto": "Velesnica",
+    "postanski_broj": "19328"
+  },
+  {
+    "mesto": "Velika Drenova",
+    "postanski_broj": "37245"
+  },
+  {
+    "mesto": "Velika Grabovnica",
+    "postanski_broj": "16221"
+  },
+  {
+    "mesto": "Velika Greda",
+    "postanski_broj": "26366"
+  },
+  {
+    "mesto": "Velika Ivanča",
+    "postanski_broj": "11414"
+  },
+  {
+    "mesto": "Velika Jasikova",
+    "postanski_broj": "19235"
+  },
+  {
+    "mesto": "Velika Krsna",
+    "postanski_broj": "11408"
+  },
+  {
+    "mesto": "Velika Lomnica",
+    "postanski_broj": "37209"
+  },
+  {
+    "mesto": "Velika Mostanica",
+    "postanski_broj": "11262"
+  },
+  {
+    "mesto": "Velika Plana",
+    "postanski_broj": "11320"
+  },
+  {
+    "mesto": "Velika Plana",
+    "postanski_broj": "18403"
+  },
+  {
+    "mesto": "Velika Reka",
+    "postanski_broj": "15322"
+  },
+  {
+    "mesto": "Velika Vrbnica",
+    "postanski_broj": "37233"
+  },
+  {
+    "mesto": "Veliki Borak",
+    "postanski_broj": "11462"
+  },
+  {
+    "mesto": "Veliki Crljeni",
+    "postanski_broj": "11563"
+  },
+  {
+    "mesto": "Veliki Gaj",
+    "postanski_broj": "26365"
+  },
+  {
+    "mesto": "Veliki Izvor",
+    "postanski_broj": "19206"
+  },
+  {
+    "mesto": "Veliki Popović",
+    "postanski_broj": "35223"
+  },
+  {
+    "mesto": "Veliki Radinci",
+    "postanski_broj": "22211"
+  },
+  {
+    "mesto": "Veliki Siljegovac",
+    "postanski_broj": "37204"
+  },
+  {
+    "mesto": "Veliko Bonjince",
+    "postanski_broj": "18215"
+  },
+  {
+    "mesto": "Veliko Golovode",
+    "postanski_broj": "37207"
+  },
+  {
+    "mesto": "Veliko Gradište",
+    "postanski_broj": "12220"
+  },
+  {
+    "mesto": "Veliko Krčmare",
+    "postanski_broj": "34214"
+  },
+  {
+    "mesto": "Veliko Laole",
+    "postanski_broj": "12306"
+  },
+  {
+    "mesto": "Veliko Orašje",
+    "postanski_broj": "11323"
+  },
+  {
+    "mesto": "Veliko Selo",
+    "postanski_broj": "12314"
+  },
+  {
+    "mesto": "Veliko Središte",
+    "postanski_broj": "26334"
+  },
+  {
+    "mesto": "Vencane",
+    "postanski_broj": "34306"
+  },
+  {
+    "mesto": "Veternik",
+    "postanski_broj": "21203"
+  },
+  {
+    "mesto": "Vilovo",
+    "postanski_broj": "21246"
+  },
+  {
+    "mesto": "Vinci",
+    "postanski_broj": "12229"
+  },
+  {
+    "mesto": "Vinča",
+    "postanski_broj": "11351"
+  },
+  {
+    "mesto": "Vionica",
+    "postanski_broj": "32254"
+  },
+  {
+    "mesto": "Visoka Rzana",
+    "postanski_broj": "18306"
+  },
+  {
+    "mesto": "Vitanovac",
+    "postanski_broj": "36206"
+  },
+  {
+    "mesto": "Vitkovac",
+    "postanski_broj": "36207"
+  },
+  {
+    "mesto": "Vitojevci",
+    "postanski_broj": "22431"
+  },
+  {
+    "mesto": "Vitosevac",
+    "postanski_broj": "37213"
+  },
+  {
+    "mesto": "Višnjevac",
+    "postanski_broj": "24222"
+  },
+  {
+    "mesto": "Višnjićevo",
+    "postanski_broj": "22246"
+  },
+  {
+    "mesto": "Vladimirci",
+    "postanski_broj": "15225"
+  },
+  {
+    "mesto": "Vladimirovac",
+    "postanski_broj": "26315"
+  },
+  {
+    "mesto": "Vladičin Han",
+    "postanski_broj": "17510"
+  },
+  {
+    "mesto": "Vlajkovac",
+    "postanski_broj": "26332"
+  },
+  {
+    "mesto": "Vlase",
+    "postanski_broj": "17507"
+  },
+  {
+    "mesto": "Vlasina Okruglica",
+    "postanski_broj": "17532"
+  },
+  {
+    "mesto": "Vlasina Rid",
+    "postanski_broj": "17533"
+  },
+  {
+    "mesto": "Vlasina Stojkovićevo",
+    "postanski_broj": "17534"
+  },
+  {
+    "mesto": "Vlasotince",
+    "postanski_broj": "16210"
+  },
+  {
+    "mesto": "Vlaška",
+    "postanski_broj": "11406"
+  },
+  {
+    "mesto": "Vlaški Do",
+    "postanski_broj": "12371"
+  },
+  {
+    "mesto": "Vodanj",
+    "postanski_broj": "11328"
+  },
+  {
+    "mesto": "Voganj",
+    "postanski_broj": "22429"
+  },
+  {
+    "mesto": "Vojka",
+    "postanski_broj": "22313"
+  },
+  {
+    "mesto": "Vojska",
+    "postanski_broj": "35208"
+  },
+  {
+    "mesto": "Vojvoda Stepa",
+    "postanski_broj": "23219"
+  },
+  {
+    "mesto": "Vojvodinci",
+    "postanski_broj": "26338"
+  },
+  {
+    "mesto": "Voluja",
+    "postanski_broj": "12256"
+  },
+  {
+    "mesto": "Vranić",
+    "postanski_broj": "11427"
+  },
+  {
+    "mesto": "Vranje",
+    "postanski_broj": "17500"
+  },
+  {
+    "mesto": "Vranjska Banja",
+    "postanski_broj": "17542"
+  },
+  {
+    "mesto": "Vranovo",
+    "postanski_broj": "11329"
+  },
+  {
+    "mesto": "Vratarnica",
+    "postanski_broj": "19344"
+  },
+  {
+    "mesto": "Vračev Gaj",
+    "postanski_broj": "26348"
+  },
+  {
+    "mesto": "Vračevšnica",
+    "postanski_broj": "32315"
+  },
+  {
+    "mesto": "Vražogrnac",
+    "postanski_broj": "19312"
+  },
+  {
+    "mesto": "Vrba",
+    "postanski_broj": "36214"
+  },
+  {
+    "mesto": "Vrbas",
+    "postanski_broj": "21460"
+  },
+  {
+    "mesto": "Vrbica",
+    "postanski_broj": "23329"
+  },
+  {
+    "mesto": "Vrdnik",
+    "postanski_broj": "22408"
+  },
+  {
+    "mesto": "Vreoci",
+    "postanski_broj": "11560"
+  },
+  {
+    "mesto": "Vrnjačka Banja",
+    "postanski_broj": "36210"
+  },
+  {
+    "mesto": "Vrnjci",
+    "postanski_broj": "36217"
+  },
+  {
+    "mesto": "Vrčin",
+    "postanski_broj": "11224"
+  },
+  {
+    "mesto": "Vršac",
+    "postanski_broj": "26300"
+  },
+  {
+    "mesto": "Vukovac",
+    "postanski_broj": "12318"
+  },
+  {
+    "mesto": "Vučje",
+    "postanski_broj": "16203"
+  },
+  {
+    "mesto": "Zablaće",
+    "postanski_broj": "32223"
+  },
+  {
+    "mesto": "Zabojnica",
+    "postanski_broj": "34244"
+  },
+  {
+    "mesto": "Zabrežje",
+    "postanski_broj": "11505"
+  },
+  {
+    "mesto": "Zajaca",
+    "postanski_broj": "15315"
+  },
+  {
+    "mesto": "Zaječar",
+    "postanski_broj": "19000"
+  },
+  {
+    "mesto": "Zaplanjska Toponica",
+    "postanski_broj": "18244"
+  },
+  {
+    "mesto": "Zasavica",
+    "postanski_broj": "22201"
+  },
+  {
+    "mesto": "Zavlaka",
+    "postanski_broj": "15312"
+  },
+  {
+    "mesto": "Zdravinje",
+    "postanski_broj": "37203"
+  },
+  {
+    "mesto": "Zica",
+    "postanski_broj": "36221"
+  },
+  {
+    "mesto": "Zirovnica",
+    "postanski_broj": "34229"
+  },
+  {
+    "mesto": "Zlatari",
+    "postanski_broj": "37228"
+  },
+  {
+    "mesto": "Zlatibor",
+    "postanski_broj": "31315"
+  },
+  {
+    "mesto": "Zlatica",
+    "postanski_broj": "23255"
+  },
+  {
+    "mesto": "Zlodol",
+    "postanski_broj": "31253"
+  },
+  {
+    "mesto": "Zlot",
+    "postanski_broj": "19215"
+  },
+  {
+    "mesto": "Zmajevo",
+    "postanski_broj": "21213"
+  },
+  {
+    "mesto": "Zminjak",
+    "postanski_broj": "15352"
+  },
+  {
+    "mesto": "Zrenjanin",
+    "postanski_broj": "23000"
+  },
+  {
+    "mesto": "Zubin Potok",
+    "postanski_broj": "38228"
+  },
+  {
+    "mesto": "Zuc",
+    "postanski_broj": "18438"
+  },
+  {
+    "mesto": "Zuce",
+    "postanski_broj": "11225"
+  },
+  {
+    "mesto": "Zvecan",
+    "postanski_broj": "38227"
+  },
+  {
+    "mesto": "Zvezdan",
+    "postanski_broj": "19227"
+  },
+  {
+    "mesto": "Zvonce",
+    "postanski_broj": "18333"
+  },
+  {
+    "mesto": "Ćenta",
+    "postanski_broj": "23266"
+  },
+  {
+    "mesto": "Ćićevac",
+    "postanski_broj": "37210"
+  },
+  {
+    "mesto": "Ćuprija",
+    "postanski_broj": "35230"
+  },
+  {
+    "mesto": "Čajetina",
+    "postanski_broj": "31310"
+  },
+  {
+    "mesto": "Čalma",
+    "postanski_broj": "22231"
+  },
+  {
+    "mesto": "Čantavir",
+    "postanski_broj": "24220"
+  },
+  {
+    "mesto": "Čačak",
+    "postanski_broj": "32000"
+  },
+  {
+    "mesto": "Čelarevo",
+    "postanski_broj": "21413"
+  },
+  {
+    "mesto": "Čenej",
+    "postanski_broj": "21233"
+  },
+  {
+    "mesto": "Čerević",
+    "postanski_broj": "21311"
+  },
+  {
+    "mesto": "Čitluk",
+    "postanski_broj": "18232"
+  },
+  {
+    "mesto": "Čitluk",
+    "postanski_broj": "37208"
+  },
+  {
+    "mesto": "Čoka",
+    "postanski_broj": "23320"
+  },
+  {
+    "mesto": "Čortanovci",
+    "postanski_broj": "22326"
+  },
+  {
+    "mesto": "Čukojevac",
+    "postanski_broj": "36220"
+  },
+  {
+    "mesto": "Čumić",
+    "postanski_broj": "34322"
+  },
+  {
+    "mesto": "Čurug",
+    "postanski_broj": "21238"
+  },
+  {
+    "mesto": "Đala",
+    "postanski_broj": "23335"
+  },
+  {
+    "mesto": "Đurdjevo",
+    "postanski_broj": "34215"
+  },
+  {
+    "mesto": "Đurdjevo",
+    "postanski_broj": "21239"
+  },
+  {
+    "mesto": "Đurđin",
+    "postanski_broj": "24213"
+  },
+  {
+    "mesto": "Šabac",
+    "postanski_broj": "15000"
+  },
+  {
+    "mesto": "Šajkaš",
+    "postanski_broj": "21244"
+  },
+  {
+    "mesto": "Šarbanovac",
+    "postanski_broj": "18235"
+  },
+  {
+    "mesto": "Šarbanovac",
+    "postanski_broj": "19373"
+  },
+  {
+    "mesto": "Šarbanovac Timok",
+    "postanski_broj": "19379"
+  },
+  {
+    "mesto": "Šašinci",
+    "postanski_broj": "22425"
+  },
+  {
+    "mesto": "Šepšin",
+    "postanski_broj": "11433"
+  },
+  {
+    "mesto": "Šetonje",
+    "postanski_broj": "12309"
+  },
+  {
+    "mesto": "Šid",
+    "postanski_broj": "22240"
+  },
+  {
+    "mesto": "Šilopaj",
+    "postanski_broj": "32311"
+  },
+  {
+    "mesto": "Šimanovci",
+    "postanski_broj": "22310"
+  },
+  {
+    "mesto": "Šljivovica",
+    "postanski_broj": "31244"
+  },
+  {
+    "mesto": "Šljivovo",
+    "postanski_broj": "37239"
+  },
+  {
+    "mesto": "Štavalj",
+    "postanski_broj": "36311"
+  },
+  {
+    "mesto": "Štitar",
+    "postanski_broj": "15354"
+  },
+  {
+    "mesto": "Štrpce",
+    "postanski_broj": "38236"
+  },
+  {
+    "mesto": "Štubik",
+    "postanski_broj": "19303"
+  },
+  {
+    "mesto": "Žabalj",
+    "postanski_broj": "21230"
+  },
+  {
+    "mesto": "Žabari",
+    "postanski_broj": "12374"
+  },
+  {
+    "mesto": "Žagubica",
+    "postanski_broj": "12320"
+  },
+  {
+    "mesto": "Žitište",
+    "postanski_broj": "23210"
+  },
+  {
+    "mesto": "Žitkovac",
+    "postanski_broj": "18210"
+  },
+  {
+    "mesto": "Žitni Potok",
+    "postanski_broj": "18407"
+  },
+  {
+    "mesto": "Žitoradja",
+    "postanski_broj": "18412"
+  }
+]

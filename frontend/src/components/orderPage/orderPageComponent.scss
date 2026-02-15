@@ -1,0 +1,63 @@
+@import '../../app/styles/variables';
+@import '../../app/styles/breakpoints';
+
+.orderPage-background {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('/images/orderpage.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px; 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.orderPage-background .card-container {
+    /* 1. KONTROLA ŠIRINE: Postavite maksimalnu širinu (desktop) */
+    width: 100%; 
+    max-width: 1100px; /* Dodato: Ograničite maksimalnu širinu za bolji dizajn na velikim ekranima */
+    
+    box-sizing: border-box;
+    height: calc(100vh - 80px);
+    padding: 2rem 1rem; 
+    
+    /* 2. RASPON KOLONA: Koristite fleksibilan grid za bolju adaptaciju širini */
+    display: grid;
+    /* Ograničavamo maksimalnu širinu pojedinačne kartice, a grid centriramo */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 360px));
+    gap:1rem;
+    justify-content: center; /* Centriranje grid mreže unutar kontejnera */
+    justify-items: center; /* Centriraj pojedinačne ćelije (kartice) */
+    align-items: start;
+    align-content: start; /* Poravnava redove na vrh kontejnera */
+    
+    /* Skrolovanje */
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* --- RESPONSIVNOST ZA TELEFON (OSTAVLJENO KAO ŠTO JE BILO, JER JE DOBRO) --- */
+@media #{$phone} {
+    .orderPage-background .card-container {
+        width: 100%;
+        max-width: none; /* Uklonite max-width na telefonu */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; 
+        height: calc(100vh - 80px);
+        padding: 1.5rem 0.75rem;
+        overflow-y: auto;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+        gap: 2rem; /* Smanjite gap na telefonu */
+    }
+    .orderPage-background{
+        background-image: url('/images/order-phone.png');
+        background-size: cover;
+        background-position: center;
+    }
+}

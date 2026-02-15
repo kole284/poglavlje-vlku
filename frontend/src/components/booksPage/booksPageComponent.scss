@@ -1,0 +1,83 @@
+@import '../../app/styles/variables';
+@import '../../app/styles/breakpoints';
+
+.booksPage-background {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('/images/bookspage.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px; 
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    padding: 2rem 0;
+    align-items: center;
+    
+
+
+    @media #{$phone} {
+        display: none;
+    }
+}
+
+/* ======================================= */
+/* 📱 MOBILNI (Karusel) */
+/* ======================================= */
+.card-container-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    max-width: 500px;
+    padding: 1rem 0;
+    
+    .card-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        /* Omogućava tranzicije između slajdova ako ih dodate */
+        transition: transform 0.3s ease-out; 
+    }
+    
+    .carousel-controls {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        
+        .arrow-button {
+            background: $color-primary-light;
+            border: 1px solid $color-primary-dark;
+            color: white;
+            font-size: 1.5rem;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.2s;
+
+            &:hover {
+                background-color: $color-primary-dark;
+            }
+        }
+
+        .slide-indicator {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
+}
