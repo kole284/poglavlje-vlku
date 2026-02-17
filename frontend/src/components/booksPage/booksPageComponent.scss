@@ -56,27 +56,38 @@
         gap: 2rem;
         
         .arrow-button {
-            background: $color-primary-light;
-            border: 1px solid $color-primary-dark;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             color: white;
-            font-size: clamp(1.2rem, 1.5vw, 1.5rem);
-            width: clamp(35px, 3vw, 40px);
-            height: clamp(35px, 3vw, 40px);
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             cursor: pointer;
             display: flex;
             justify-content: center;
             align-items: center;
-            transition: background-color 0.2s;
+            transition: all 0.3s ease;
+
+            svg {
+                transition: transform 0.3s ease;
+            }
 
             &:hover {
-                background-color: $color-primary-dark;
+                background: $color-primary-light;
+                border-color: $color-primary-light;
+                transform: scale(1.1);
+                box-shadow: 0 4px 20px rgba($color-primary-light, 0.4);
+                
+                svg {
+                    transform: scale(1.2);
+                }
             }
         }
 
         .slide-indicator {
             color: white;
-            font-size: clamp(1rem, 1.2vw, 1.2rem);
+            font-size: clamp(1.4rem, 4vw, 1.8rem);
             font-weight: bold;
         }
     }

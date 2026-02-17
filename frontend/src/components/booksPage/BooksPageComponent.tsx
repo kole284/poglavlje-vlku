@@ -140,7 +140,9 @@ export default function BooksPageComponent(){
 
                 <div className="carousel-controls">
                     <button className='arrow-button left' onClick={goToPrev} aria-label="Prethodna knjiga">
-                        <span className="arrow-icon">{'<'}</span> 
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
                     </button>
                     
                     <div className="slide-indicator">
@@ -148,7 +150,9 @@ export default function BooksPageComponent(){
                     </div>
 
                     <button className='arrow-button right' onClick={goToNext} aria-label="Sledeća knjiga">
-                        <span className="arrow-icon">{'>'}</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
                     </button>
                 </div>
             </div>
