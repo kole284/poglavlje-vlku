@@ -13,11 +13,24 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    }
 }
 .orderCard-container img {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.orderCard-container:hover img {
+    transform: scale(1.08);
 }
 .orderCard-title{
     font-size: clamp(2rem, 2.75vw, 2.75rem);

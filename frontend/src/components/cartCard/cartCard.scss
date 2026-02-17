@@ -26,7 +26,12 @@
         height: 100%;
         object-fit: contain; // 'contain' ako želiš da se vidi cela slika, 'cover' ako želiš da popuni sve
         display: block;
+        transition: transform 0.3s ease;
     }
+}
+
+.card-container:hover .card-image img {
+    transform: scale(1.05);
 }
 
 .cart-content{
@@ -59,9 +64,25 @@
         color: white;
         .minus{
             cursor: pointer;
+            transition: all 0.2s ease;
+            padding: 0.25rem;
+            border-radius: 4px;
+            
+            &:hover {
+              background-color: rgba(0, 0, 0, 0.2);
+              transform: scale(1.2);
+            }
         }
         .plus{
             cursor: pointer;
+            transition: all 0.2s ease;
+            padding: 0.25rem;
+            border-radius: 4px;
+            
+            &:hover {
+              background-color: rgba(0, 0, 0, 0.2);
+              transform: scale(1.2);
+            }
         }
     }
     .button{

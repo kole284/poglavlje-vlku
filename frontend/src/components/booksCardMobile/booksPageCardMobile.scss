@@ -16,6 +16,12 @@
     color: #fff;
     border-radius: 12px;
     height: calc(100vh - 120px);
+    transition: all 0.3s ease;
+    
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }
 }
 
 .book-card-mobile .image-mobile {
@@ -31,6 +37,11 @@
     max-width: 280px;
     height: auto;
     border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.book-card-mobile:hover .image-mobile img {
+    transform: scale(1.05);
 }
 
 .book-card-mobile .text-mobile {
