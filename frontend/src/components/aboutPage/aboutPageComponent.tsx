@@ -74,11 +74,6 @@ export default function AboutPageComponent() {
         <>
             <div className='about-background'>
                 <div className='about-content-wrapper'>
-                    <div className='about-header'>
-                        <h1 className='about-title'>O Autoru</h1>
-                        <div className='title-underline'></div>
-                    </div>
-                    
                     <div className='about-main-content'>
                         <div className='about-text-section'>
                             <div className='text-card'>

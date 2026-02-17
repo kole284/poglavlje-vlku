@@ -113,7 +113,9 @@
 .about-background {
     width: 100vw;
     min-height: 100vh;
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    background-image: url('/images/aboutpage.png');
+    background-size: cover;
+    background-position: center;
     padding: 80px 40px 40px 40px;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -127,33 +129,6 @@
     max-width: 1400px;
     margin: 0 auto;
     width: 100%;
-}
-
-.about-header {
-    text-align: center;
-    margin-bottom: 60px;
-    animation: fadeInDown 0.8s ease-out;
-    
-    .about-title {
-        font-family: var(--font-bebas), Arial, sans-serif;
-        font-size: clamp(3rem, 6vw, 5rem);
-        color: white;
-        margin: 0;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        background: linear-gradient(135deg, #ffffff 0%, $color-primary-light 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
-    
-    .title-underline {
-        width: 100px;
-        height: 4px;
-        background: linear-gradient(90deg, transparent, $color-primary-light, transparent);
-        margin: 20px auto 0;
-        border-radius: 2px;
-    }
 }
 
 .about-main-content {
