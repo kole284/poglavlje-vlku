@@ -16,26 +16,33 @@ $black-gradient-end: #292929;
   position: absolute;
   top: 0;
   width: 100vw;
-  height: 80px;
+  height: clamp(60px, 5vw, 80px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  z-index: 100;
+  
   a {
     text-decoration: none;
     color: white;
-    font-size: 2.5rem; 
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
     transition: color 0.3s ease;
+    white-space: nowrap;
   }
   
   .active-link {
     color: $color-primary-light; 
   }
+  
   .logo {
     position: absolute;
     left: 0;
     margin-left: 1%;
+    width: clamp(50px, 4.5vw, 70px);
+    height: auto;
   }
+  
   .cart-link {
     position: absolute;
     right: 0;
@@ -44,8 +51,25 @@ $black-gradient-end: #292929;
     align-items: center;
     height: 100%;
   }
+  
   .cart {
-    /* image inside link — let it size naturally */
+    width: clamp(35px, 3.5vw, 50px);
+    height: auto;
+  }
+  
+  @media #{$xs-desktop} {
+    a {
+      font-size: clamp(1.3rem, 2.2vw, 2rem);
+    }
+  }
+  
+  @media #{$tablet} {
+    padding: 0 2rem;
+    gap: 1rem;
+    
+    a {
+      font-size: clamp(1.2rem, 2vw, 1.8rem);
+    }
   }
 }
 @media #{$phone} {

@@ -1,5 +1,6 @@
 @import '../../app/styles/variables';
 @import '../../app/styles/breakpoints';
+
 .homePage-background {
     width: 100vw;
     height: 100vh;
@@ -9,32 +10,48 @@
     display: grid;
     grid-template-columns: 1fr 1fr; 
     overflow: hidden;
+    
     @media #{$phone} {
         display: none !important; 
     }
 }
+
 .homePage-left-side {
     display: flex; 
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    margin-right: 10%;
+    padding-right: 5%;
+    gap: clamp(1rem, 2vw, 2rem);
 }
     
-/* --- DESNA STRANA (Uklanjamo mobilni stil odavde) --- */
 .homePage-right-side {
     display: block; 
     background-image: url('/images/dots.svg'); 
-    background-size: 75%; 
-    background-position: right center; 
+    background-size: contain;
+    background-position: center right;
     background-repeat: no-repeat;
-    margin-top: 8%;
-    margin-right: 5%;
+    margin-top: 5%;
+    margin-right: 2%;
+    
+    @media #{$xl-desktop} {
+        background-size: 80%;
+        background-position: center right;
+    }
+    
+    @media #{$xs-desktop} {
+        background-size: 85%;
+        background-position: center right;
+        margin-right: 0;
+    }
+    
+    @media #{$s-desktop} {
+        background-size: 90%;
+    }
 }
 
-/* --- Mobilni Kontejner --- */
 .homePage-mobile{
-    display: none; /* Podrazumevano sakriveno na desktopu/tabletu */
+    display: none;
     
     @media #{$phone} {
         display: flex;
@@ -47,43 +64,66 @@
         background-position: center;
         display: grid;
         grid-template-rows: 1fr 1fr;
+        
         .homePage-mobile-top-half{
             display: flex;
             justify-content: flex-start;
             align-items: center;
             margin-bottom: 20%;
+            padding: 0 1rem;
+            
             .homePage-title{
-                font-size: 3.5rem;
+                font-size: clamp(2.5rem, 7vw, 3.5rem);
+                
                 @media #{$m-phone} {
-                    font-size: 3rem;
+                    font-size: clamp(2rem, 6vw, 3rem);
                 }
             }
         }
+        
         .homePage-mobile-bottom-half{
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             align-items: center;
             margin-top: 20%;
-            
+            padding: 0 1rem;
+            gap: 1.5rem;
         }
     }
 }
 
-/* --- Naslov (Stilizovanje) --- */
 .homePage-title {
     font-family: var(--font-bebas), Arial, Helvetica, sans-serif;
-    font-size: 7rem;
+    font-size: clamp(3.5rem, 7vw, 7rem);
     color: var(--foreground);
-    text-align: center; // Da bude centrirano na mobilnom
+    text-align: center;
+    line-height: 1.2;
     
-    // Smanjite font size na telefonu ako je prevelik
+    @media #{$xl-desktop} {
+        font-size: clamp(3rem, 6vw, 6rem);
+    }
+    
+    @media #{$xs-desktop} {
+        font-size: clamp(2.5rem, 5.5vw, 5rem);
+    }
+    
+    @media #{$s-desktop} {
+        font-size: clamp(2.5rem, 5vw, 4.5rem);
+    }
+    
+    @media #{$tablet} {
+        font-size: clamp(2rem, 4.5vw, 4rem);
+    }
+    
     @media #{$phone} {
-        font-size: 4rem; 
+        font-size: clamp(2.5rem, 8vw, 4rem); 
     }
+    
     @media #{$m-phone} {
-        font-size: 4rem; 
+        font-size: clamp(2rem, 7vw, 3.5rem); 
     }
+    
     .homePage-title-highlight {
         color: var(--color-highlight);
     }

@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 80px; 
+    padding-top: clamp(60px, 5vw, 80px); 
 }
 
 .card-container {
@@ -59,9 +59,9 @@
             background: $color-primary-light;
             border: 1px solid $color-primary-dark;
             color: white;
-            font-size: 1.5rem;
-            width: 40px;
-            height: 40px;
+            font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+            width: clamp(35px, 3vw, 40px);
+            height: clamp(35px, 3vw, 40px);
             border-radius: 50%;
             cursor: pointer;
             display: flex;
@@ -76,7 +76,7 @@
 
         .slide-indicator {
             color: white;
-            font-size: 1.2rem;
+            font-size: clamp(1rem, 1.2vw, 1.2rem);
             font-weight: bold;
         }
     }

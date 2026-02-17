@@ -7,7 +7,7 @@
     background-image: url('/images/orderpage.png');
     background-size: cover;
     background-position: center;
-    padding-top: 80px; 
+    padding-top: clamp(60px, 5vw, 80px); 
     box-sizing: border-box;
     display: flex;
     justify-content: center;

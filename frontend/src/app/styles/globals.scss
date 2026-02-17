@@ -3,30 +3,38 @@
 @import 'breakpoints';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
+  --background: #0a0a0a;
+  --foreground: #ededed;
   
   --color-white: #ffffff;
   --color-navbar: #AA2C2D;
   --color-highlight: #B21F1F;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    
-    /* DODATE BOJE */
-    --color-white: #ffffff;
-    --color-navbar: #AA2C2D;
-    --color-highlight: #B21F1F;
-  }
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html {
+  background: #0a0a0a;
+  color: #ededed;
+  // Responsive base font size for better zoom scaling
+  font-size: 16px;
+  
+  @media #{$xs-desktop} {
+    font-size: 15px;
+  }
+  
+  @media #{$tablet} {
+    font-size: 14px;
+  }
+  
+  @media #{$phone} {
+    font-size: 14px;
+  }
 }
 
 body {

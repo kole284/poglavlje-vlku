@@ -15,8 +15,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr; 
     overflow: hidden;
+    padding-top: 80px; // Dodajem padding da se ne prekriva sa headerom
+    box-sizing: border-box;
+    
     @media #{$phone} {
         display: none !important; 
+    }
+    
+    // Tablet/small laptop - add vertical scroll if needed
+    @media #{$tablet-only} {
+        overflow-y: auto;
+        height: auto;
+        min-height: 100vh;
+        padding: 80px 20px 20px 20px;
+    }
+    
+    // Very narrow desktop - smaller gap
+    @media #{$s-desktop-only} {
+        gap: 1rem;
+        padding-top: 80px;
     }
 }
 
@@ -33,11 +50,12 @@
     p {
         /* 💡 IZMENA 1: Postavljamo Bebas Neue font */
         font-family: 'Bebas Neue', sans-serif; 
-        font-size: 1.7rem; 
+        font-size: clamp(1.2rem, 1.5vw, 1.5rem);
         color: white; 
+        line-height: 1.4;
         
         background-color: rgba(0, 0, 0, 0.7); 
-        padding: 30px; 
+        padding: clamp(15px, 2vw, 25px);
         border-radius: 12px;
         
         /* 💡 IZMENA 2: Povećavamo max-width da zauzme skoro celu širinu leve kolone */
@@ -45,7 +63,32 @@
         
         /* Pošto je Bebas Neue kapitalni font, opravdavanje (justify) može izgledati neuredno.
            Preporučujem da probate 'left' ili 'center' za ovaj font. */
-        text-align: justify; 
+        text-align: justify;
+        
+        // Handle overflow better
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    
+    // Responsive adjustments for tablets and small laptops
+    @media #{$tablet-only} {
+        padding-left: 3%;
+        padding-right: 3%;
+        
+        p {
+            font-size: clamp(1.1rem, 1.3vw, 1.3rem);
+            padding: clamp(12px, 1.8vw, 18px);
+            max-width: 95%;
+            line-height: 1.35;
+        }
+    }
+    
+    @media #{$s-desktop-only} {
+        p {
+            font-size: clamp(1.2rem, 1.4vw, 1.4rem);
+            padding: clamp(18px, 2.2vw, 22px);
+            line-height: 1.4;
+        }
     }
 }
     
@@ -55,16 +98,17 @@
     flex-direction: row;
     justify-content: center; 
     align-items: center;
+    
     .gallery-container{
-        margin-top:10% ;
+        margin-top: 5%; // Smanjeno sa 10%
         display: flex;
         justify-content: center;
         align-items: center;
 
         /* square gallery area that adapts to viewport */
         .image-gallery{
-            width: min(660px, 60vw);
-            height: min(660px, 60vw);
+            width: min(550px, 50vw, clamp(400px, 45vw, 550px));
+            height: min(550px, 50vw, clamp(400px, 45vw, 550px));
             display: flex;
             align-items: center;
             justify-content: center;
@@ -81,14 +125,39 @@
             object-position: center;
             display: block;
         }
+        
+        /* Placeholder styling */
+        .gallery-placeholder {
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            border-radius: 8px;
+        }
+        
+        // Responsive for tablets - smaller gallery
+        @media #{$tablet-only} {
+            margin-top: 3%;
+            
+            .image-gallery {
+                width: min(350px, 40vw); // Još manje
+                height: min(350px, 40vw);
+            }
+        }
+        
+        @media #{$s-desktop-only} {
+            .image-gallery {
+                width: min(450px, 45vw); // Smanjeno
+                height: min(450px, 45vw);
+            }
+        }
     }
+    
     .arrow-button-left, .arrow-button-right {
             background: $color-primary-light;
             border: 1px solid $color-primary-dark;
             color: white;
-            font-size: 1.75rem;
-            width: 40px;
-            height: 40px;
+            font-size: clamp(1.3rem, 1.75vw, 1.75rem);
+            width: clamp(35px, 3vw, 40px);
+            height: clamp(35px, 3vw, 40px);
             border-radius: 50%;
             cursor: pointer;
             display: flex;
@@ -99,6 +168,13 @@
             transition: background-color 0.2s;
             &:hover {
                 background-color: $color-primary-dark;
+            }
+            
+            // Smaller on tablets
+            @media #{$tablet-only} {
+                width: clamp(30px, 3.5vw, 35px);
+                height: clamp(30px, 3.5vw, 35px);
+                font-size: clamp(1.2rem, 1.5vw, 1.5rem);
             }
     }
     /* Ensure arrow characters (in .arrow-icon) are centered visually */
@@ -117,9 +193,17 @@
     }
     .arrow-button-left {
         margin-right: 10px;
+        
+        @media #{$tablet-only} {
+            margin-right: 5px;
+        }
     }
     .arrow-button-right {
         margin-left: 10px;
+        
+        @media #{$tablet-only} {
+            margin-left: 5px;
+        }
     }
     
 }
@@ -144,8 +228,8 @@
         }
 
         .gallery-phone{
-                height: 320px;
-                width: 320px;
+                height: clamp(250px, 60vw, 320px);
+                width: clamp(250px, 60vw, 320px);
                 background-color: rgba($color: #ffffff, $alpha: 0.5);
                 border-radius: 8px;
                 margin: 15px 0;
@@ -177,7 +261,7 @@
         }
         
         .text-container{
-            font-size: 1.5rem;
+            font-size: clamp(1.2rem, 3vw, 1.5rem);
             padding: 15px;
             text-align: left;
             color: white;

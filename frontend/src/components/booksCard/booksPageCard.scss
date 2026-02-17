@@ -3,7 +3,7 @@
 
 .book-card {
     width: 100vw;
-    height: 320px;
+    height: clamp(250px, 25vw, 320px);
     flex: 0 0 auto;
     background-color: rgba($color: #000000, $alpha: 0.5);
     padding: 0.75rem;
@@ -45,18 +45,18 @@
 
 .book-card h3 {
     color: white;
-    font-size: 2.75rem;
+    font-size: clamp(2rem, 2.75vw, 2.75rem);
     margin: 0.25rem 0;
 }
 
 .book-card .author {
     color: $color-primary-dark;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 2vw, 2rem);
     margin: 0.25rem 0;
 }
 
 .book-card .price {
-    font-size: 1.75rem;
+    font-size: clamp(1.3rem, 1.75vw, 1.75rem);
     margin: 0.5rem 0;
     .price-highlight{
         color:$color-primary-light;
@@ -67,7 +67,7 @@
     color: white;
     flex: 1;
     min-width: 0;
-    font-size: 1.75rem;
+    font-size: clamp(1.3rem, 1.75vw, 1.75rem);
     text-align: justify;
     margin: 0.25rem 0;
     display: flex;
@@ -83,6 +83,6 @@
 }
 
 .book-card .button {
-    scale:0.7;
-    font-size: 3rem;
+    scale: clamp(0.6, 0.7vw, 0.7);
+    font-size: clamp(2rem, 3vw, 3rem);
 }

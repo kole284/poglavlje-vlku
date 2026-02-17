@@ -14,125 +14,73 @@ $black-gradient-end: #292929;
         $black-gradient-end 100%
     );
     color: white;
-    padding: 2rem 0 1rem 0; // Malo smanjen vertikalni razmak
+    padding: 2rem 0 1rem 0;
     margin-top: auto; 
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 
     .footer-content {
         max-width: 1200px;
         margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1.5fr 1.2fr 0.8fr; // Prilagođene kolone
-        gap: 2rem;
         padding: 0 2rem;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
 
         @media #{$phone} {
-            grid-template-columns: 1fr;
-            text-align: center;
+            flex-direction: column;
             gap: 2rem;
         }
     }
+    
     .text-highlight {
-                color: $color-primary-dark;
-            }
-    .footer-section-1 {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-
-        .title-logo-wrapper {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 0.5rem;
-
-            h3 {
-                font-size: 3rem;
-                color:white;
-                margin: 0;
-            }
-            
-        }
-
-        p {
-            font-size: 2rem; // Smanjeno sa 2rem jer je 2rem ogromno za opis u footeru
-            opacity: 0.8;
-        }
-
-        @media #{$phone} {
-            align-items: center;
-            .title-logo-wrapper { 
-                h3 {
-                    font-size: 2.5rem;
-                }
-               
-                justify-content: center; 
-            } 
-            p{
-                    font-size: 1.5rem;
-            }
-        }
-    }
-
-    // OVO JE KLJUČNI DEO ZA DVE KOLONE LINKOVA
-    .footer-section-2 {
-        h3  {
-            font-size: 2rem;
-            color:$color-primary-dark;
-            margin-bottom: 0.5rem;
-        }
-        ul {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr); // PRAVI DVE KOLONE
-            gap: 0.5rem 1rem; // Prvi broj je razmak redova, drugi razmak kolona
-            list-style: none;
-            padding: 0;
-            
-            li a {
-                font-size: 1.5rem; // Smanjeno sa 1.5rem
-                white-space: nowrap; // Sprečava da se link lomi u novi red
-                
-                &:hover {
-                    color: $color-primary-light;
-                }
-            }
-        }
-
-        @media #{$phone} {
-            ul {
-                justify-content: center;
-                display: inline-grid; // Centriranje grida na mobilnom
-            }
-        }
-    }
-
-    .footer-section-3 {
-        .social-icons {
-            display: flex;
-            gap: 1.2rem;
-            font-size: 1.6rem;
-
-            @media #{$phone} {
-                justify-content: center;
-            }
-
-            .icon {
-                cursor: pointer;
-                transition: all 0.3s ease;
-                &:hover {
-                    color: $color-primary-light;
-                    transform: translateY(-3px);
-                }
-            }
-        }
-    }
-
-    // Opšti stilovi za naslove sekcija
-    h4 {
         color: $color-primary-dark;
-        font-size: 1.6rem;
-        margin-bottom: 1rem;
+    }
+    
+    // Logo i Naziv
+    .footer-brand {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+
+        img {
+            width: clamp(50px, 5vw, 80px);
+            height: auto;
+        }
+
+        h3 {
+            font-size: clamp(2rem, 3vw, 3rem);
+            color: white;
+            margin: 0;
+            white-space: nowrap;
+        }
+
+        @media #{$phone} {
+            h3 {
+                font-size: clamp(1.8rem, 5vw, 2.5rem);
+            }
+        }
+    }
+
+    // Social ikone
+    .footer-social {
+        display: flex;
+        gap: 1.5rem;
+        font-size: clamp(1.5rem, 2vw, 2rem);
+
+        .icon {
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: white;
+            
+            &:hover {
+                color: $color-primary-light;
+                transform: translateY(-3px);
+            }
+        }
     }
 
     .footer-bottom {

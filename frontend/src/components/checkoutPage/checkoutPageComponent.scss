@@ -12,14 +12,17 @@
     /* Vertikalno i horizontalno centriranje checkout-containera */
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    padding: clamp(80px, 10vw, 100px) 20px 40px 20px;
+    box-sizing: border-box;
 }
 
 .checkout-container{
     width: 80vw;
     max-width: 1200px; 
     box-sizing: border-box;
-    padding: 2rem; 
+    padding: 2rem;
+    margin: auto; // Centriranje
     
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -47,7 +50,7 @@
     gap: 0.75rem; /* Razmak između polja */
     
     h2 {
-        font-size: 3rem; 
+        font-size: clamp(2rem, 3vw, 3rem); 
         margin-bottom: 1rem; 
     }
 
@@ -58,11 +61,11 @@
         color: white;
         width: 100%;
         padding: 0.5rem 0.75rem; 
-        font-size: 1.7rem; 
+        font-size: clamp(1.3rem, 1.7vw, 1.7rem); 
         border-radius: 6px;
         border: none;
         box-sizing: border-box;
-        height: 40px; 
+        height: clamp(35px, 4vw, 40px); 
         appearance: none; /* Uklanja defaultni izgled za select */
         
         &:focus{
@@ -71,7 +74,7 @@
         
         &::placeholder {
             font-family: Bebas Neue, sans-serif;
-            font-size: 1.7rem;
+            font-size: clamp(1.3rem, 1.7vw, 1.7rem);
             opacity: 0.7;
         }
         
@@ -116,12 +119,12 @@
     gap: 1rem; 
 
     h2 {
-        font-size: 3rem;
+        font-size: clamp(2rem, 3vw, 3rem);
         margin-bottom: 0.5rem;
     }
 }
 .info-item{
-    font-size: 2.5rem; 
+    font-size: clamp(2rem, 2.5vw, 2.5rem); 
     padding: 0.25rem 0;
     
     &.total {
@@ -135,13 +138,16 @@
     color: $color-primary-light;
 }
 @media #{$phone} {
+    .checkoutPage-background {
+        padding: 80px 10px 20px 10px; // Manje padding na mobilnom
+    }
+    
     .checkout-container{
         grid-template-columns: 1fr; /* Jedna kolona na telefonu */
-    }
-    .checkout-container{
-        width: 100vw;
+        width: 100%;
+        max-width: 100%;
         padding: 1rem;
-        height: calc(100vh - 80px);
+        max-height: calc(100vh - 100px);
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
         gap: 1rem;
