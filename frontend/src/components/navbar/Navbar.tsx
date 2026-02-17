@@ -27,14 +27,16 @@ export default function Navbar() {
 
     return (
         <div className="navbar">
-            <Image 
-                className='logo'
-                src="/images/logo.png" 
-                alt="Logo" 
-                width={70} 
-                height={60}
-                priority
-            />
+            <Link href="/home">
+                <Image 
+                    className='logo'
+                    src="/images/logo.png" 
+                    alt="Logo" 
+                    width={70} 
+                    height={60}
+                    priority
+                />
+            </Link>
 
             {navItems.map((item) => (
                 <Link
