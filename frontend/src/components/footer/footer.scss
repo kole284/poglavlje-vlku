@@ -14,7 +14,7 @@ $black-gradient-end: #292929;
         $black-gradient-end 100%
     );
     color: white;
-    padding: 2rem 0 1rem 0;
+    padding: 1rem 0 0.5rem 0;
     margin-top: auto;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -22,7 +22,7 @@ $black-gradient-end: #292929;
         max-width: 1200px;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 1.5fr 1.2fr 0.8fr;
+        grid-template-columns: 1.5fr 0.8fr;
         gap: 2rem;
         padding: 0 2rem;
 
@@ -34,7 +34,7 @@ $black-gradient-end: #292929;
     }
     
     .text-highlight {
-        color: $color-primary-dark;
+        color: $color-primary-light;
     }
     
     .footer-section-1 {
@@ -47,61 +47,31 @@ $black-gradient-end: #292929;
             flex-direction: row;
             align-items: center;
             gap: 15px;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.25rem;
 
             h3 {
-                font-size: 3rem;
+                font-size: 2.5rem;
                 color:white;
                 margin: 0;
             }
         }
 
         p {
-            font-size: 2rem;
-            opacity: 0.8;
+            font-size: 1.6rem;
+            opacity: 0.9;
+            margin: 0;
         }
 
         @media #{$phone} {
             align-items: center;
             .title-logo-wrapper {
                 h3 {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                 }
                 justify-content: center;
             }
             p {
-                font-size: 1.5rem;
-            }
-        }
-    }
-
-    .footer-section-2 {
-        h3 {
-            font-size: 2rem;
-            color: $color-primary-dark;
-            margin-bottom: 0.5rem;
-        }
-        ul {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.5rem 1rem;
-            list-style: none;
-            padding: 0;
-
-            li a {
-                font-size: 1.5rem;
-                white-space: nowrap;
-
-                &:hover {
-                    color: $color-primary-light;
-                }
-            }
-        }
-
-        @media #{$phone} {
-            ul {
-                justify-content: center;
-                display: inline-grid;
+                font-size: 1.2rem;
             }
         }
     }
@@ -135,8 +105,8 @@ $black-gradient-end: #292929;
 
     .footer-bottom {
         border-top: 1px solid rgba(255, 255, 255, 0.05);
-        margin-top: 2rem;
-        padding-top: 1rem;
+        margin-top: 1rem;
+        padding-top: 0.75rem;
         text-align: center;
         font-size: 0.9rem;
         opacity: 0.5;

@@ -1,7 +1,7 @@
 import './footer.scss';
 import Image from 'next/image';
 import logo from '../../../public/images/logo.png';
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa6';
+import { FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa6';
 
 export default function Footer() {
     return (
@@ -19,19 +19,7 @@ export default function Footer() {
                             style={{ objectFit: 'contain' }}
                         />
                     </div>                    
-                    <p>Tvoj novi <span className='text-highlight'>omiljeni</span> srpski pisac</p>
-                </div>
-
-                {/* SEKCIJA 2: Linkovi */}
-                <div className="footer-section-2">
-                    <h3>Linkovi</h3>
-                    <ul>
-                        <li><a href="/">Početna</a></li>
-                        <li><a href="/about">O autoru</a></li>
-                        <li><a href="/books">Knjige</a></li>
-                        <li><a href="/order">Poruči</a></li>
-                        <li><a href="/cart">Korpa</a></li>
-                    </ul>
+                    <p>TVOJ NOVI <span className='text-highlight'>OMILJENI</span> DOMAĆI AUTOR</p>
                 </div>
 
                 {/* SEKCIJA 3: Social */}
@@ -44,6 +32,10 @@ export default function Footer() {
                         
                         <a href="https://www.instagram.com/poglavlje_vlku/" target="_blank" rel="noopener noreferrer">
                             <FaInstagram className="icon" />
+                        </a>
+                        
+                        <a href="https://www.tiktok.com/@poglavlje_vlku" target="_blank" rel="noopener noreferrer">
+                            <FaTiktok className="icon" />
                         </a>
                     </div>
                 </div>
