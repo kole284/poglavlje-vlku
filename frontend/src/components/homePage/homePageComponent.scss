@@ -21,33 +21,17 @@
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    padding-right: 5%;
-    gap: clamp(1rem, 2vw, 2rem);
+    margin-right: 10%;
 }
     
 .homePage-right-side {
     display: block; 
     background-image: url('/images/dots.svg'); 
-    background-size: contain;
-    background-position: center right;
+    background-size: 75%;
+    background-position: right center;
     background-repeat: no-repeat;
-    margin-top: 5%;
-    margin-right: 2%;
-    
-    @media #{$xl-desktop} {
-        background-size: 80%;
-        background-position: center right;
-    }
-    
-    @media #{$xs-desktop} {
-        background-size: 85%;
-        background-position: center right;
-        margin-right: 0;
-    }
-    
-    @media #{$s-desktop} {
-        background-size: 90%;
-    }
+    margin-top: 8%;
+    margin-right: 5%;
 }
 
 .homePage-mobile{
