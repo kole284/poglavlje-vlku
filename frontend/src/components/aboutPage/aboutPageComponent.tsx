@@ -10,8 +10,11 @@ export default function AboutPageComponent() {
 
     // FETCH PODATAKA SA BACKENDA
     useEffect(() => {
-        fetch('http://localhost:5049/api/images')
-            .then(res => res.json())
+        fetch('/api/images')
+            .then(res => {
+                if (!res.ok) throw new Error('Failed to fetch images');
+                return res.json();
+            })
             .then(data => {
                 // data je niz objekata: [{id: 1, imageUrl: "..."}, ...]
                 // Mapiramo ga tako da dobijemo samo niz stringova
@@ -50,9 +53,18 @@ export default function AboutPageComponent() {
     };
 
     // Prikaz dok se slike učitavaju
-    if (loading) return <div className="loading-state">Učitavanje...</div>;
+    if (loading) return (
+        <div className="about-loading">
+            <div className="loading-spinner"></div>
+            <p>Učitavanje...</p>
+        </div>
+    );
     // Prikaz ako nema slika
-    if (images.length === 0) return <div className="error-state">Galerija je trenutno prazna.</div>;
+    if (images.length === 0) return (
+        <div className="about-error">
+            <p>Galerija je trenutno prazna.</p>
+        </div>
+    );
 
     const tekst1 = `Stefan Vlku rođen je 18. januara 2002. godine u rudarskom gradu Majdanpeku, ispod planine Starica, koji leži na zlatonosnoj reci Pek. Osnovnu i srednju školu završava u rodnom gradu, a potom upisuje Akademiju tehničkih strukovnih studija u Požarevcu, da bi, nakon završetka osnovnih studija, upisao i Master studije u istom gradu. Pre pisanja, jako dugo se bavio boksom, a takmičio se čak i u Rimu.`;
     
@@ -61,23 +73,46 @@ export default function AboutPageComponent() {
     return (
         <>
             <div className='about-background'>
-                <div className='about-left-side'>
-                    <p>{tekst1} {tekst2}</p>
-                </div>
-                <div className='about-right-side'>
-                    <div className='gallery-container'>
-                        <button className='arrow-button-left' onClick={prev}>
-                            <span className='arrow-icon'>{'<'}</span>
-                        </button>
-
-                        <div className='image-gallery'>
-                            {/* Koristimo regularan img ili Next.js Image */}
-                            <img src={images[index]} alt={`Autor ${index + 1}`} />
+                <div className='about-content-wrapper'>
+                    <div className='about-header'>
+                        <h1 className='about-title'>O Autoru</h1>
+                        <div className='title-underline'></div>
+                    </div>
+                    
+                    <div className='about-main-content'>
+                        <div className='about-text-section'>
+                            <div className='text-card'>
+                                <p>{tekst1}</p>
+                            </div>
+                            <div className='text-card'>
+                                <p>{tekst2}</p>
+                            </div>
                         </div>
+                        
+                        <div className='about-gallery-section'>
+                            <div className='gallery-wrapper'>
+                                <button className='gallery-arrow gallery-arrow-left' onClick={prev} aria-label="Previous image">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                        <polyline points="15 18 9 12 15 6"></polyline>
+                                    </svg>
+                                </button>
 
-                        <button className='arrow-button-right' onClick={next}>
-                            <span className='arrow-icon'>{'>'}</span>
-                        </button>
+                                <div className='gallery-image-container'>
+                                    <img 
+                                        src={images[index]} 
+                                        alt={`Stefan Vlku - Fotografija ${index + 1}`}
+                                        className='gallery-image'
+                                    />
+                                    <div className='image-counter'>{index + 1} / {images.length}</div>
+                                </div>
+
+                                <button className='gallery-arrow gallery-arrow-right' onClick={next} aria-label="Next image">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
