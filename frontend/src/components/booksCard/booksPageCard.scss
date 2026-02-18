@@ -80,11 +80,13 @@
     color: white;
     flex: 1;
     min-width: 0;
+    max-width: 60%;
     font-size: clamp(1.3rem, 1.75vw, 1.75rem);
     text-align: justify;
     margin: 0.25rem 0;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .book-card .description > p {
@@ -92,7 +94,11 @@
     padding-right: 1rem;
     /* make the text area itself scrollable inside the fixed-height card */
     overflow-y: auto;
+    overflow-x: hidden;
     flex: 1 1 auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .book-card .button {
