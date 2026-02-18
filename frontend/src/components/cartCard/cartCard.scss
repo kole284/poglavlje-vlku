@@ -107,8 +107,8 @@
 
     /* image, text, price in a single row */
     .card-image {
-        width: 80px; // Fiksna širina na mobilnom da ostane mesta za tekst
-        flex: 0 0 80px; // Sprečava flexbox da smanji sliku
+        width: 170px; // Fiksna širina na mobilnom da ostane mesta za tekst
+        flex: 0 0 170px; // Sprečava flexbox da smanji sliku
         height: auto;
     }
 

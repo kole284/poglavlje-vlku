@@ -49,7 +49,23 @@
 }
 
 .orderCard-container .button {
-    width: 60%;
-    padding: 12px 20px;
+    width: 85%;
+    padding: 16px 28px;
     scale: 1;
+    border-radius: 50px;
+}
+
+@media #{$phone} {
+    .orderCard-title {
+        font-size: clamp(2.8rem, 6vw, 3.2rem);
+    }
+    
+    .orderCard-price {
+        font-size: clamp(2.3rem, 4.5vw, 2.7rem);
+    }
+    .orderCard-container .button {
+        font-size: 2.3rem;
+        width: 90%;
+        padding: 18px 30px;
+    }
 }

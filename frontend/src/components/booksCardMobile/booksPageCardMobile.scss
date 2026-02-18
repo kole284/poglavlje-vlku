@@ -52,17 +52,17 @@
 
 .book-card-mobile .title {
     margin: 0 0 0.25rem 0;
-    font-size: clamp(2rem, 5vw, 2.5rem);
+    font-size: clamp(3rem, 6vw, 4.5rem);
 }
 
 .book-card-mobile .author {
     margin: 0 0 0.5rem 0;
     color: $color-primary-dark;
-    font-size: clamp(1.6rem, 4vw, 2rem);
+    font-size: clamp(2rem, 4.5vw, 2.9rem);
 }
 
 .book-card-mobile .description-mobile {
-    font-size: clamp(1.3rem, 3.5vw, 1.6rem);
+    font-size: clamp(1.7rem, 3.5vw, 2.3rem);
     line-height: 1.5;
     color: #eee;
     margin: 0.25rem 0;
@@ -70,7 +70,7 @@
 
 .book-card-mobile .price {
     margin-top: 0.5rem;
-    font-size: clamp(1.5rem, 4vw, 1.8rem);
+    font-size: clamp(2.5rem, 5vw, 3.8rem);
     .price-highlight{
         color:$color-primary-light;
     }
@@ -85,6 +85,7 @@
     padding-top: 0.5rem;
     .button{
         scale: 1;
+        font-size: clamp(2rem, 4vw, 3rem);
     }
 }
 

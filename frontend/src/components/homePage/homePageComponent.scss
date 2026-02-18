@@ -34,63 +34,63 @@
     margin-right: 5%;
 }
 
-.homePage-mobile{
+.homePage-mobile {
     display: none;
     
     @media #{$phone} {
-        display: flex;
+        display: grid;
         width: 100vw;
         height: 100vh;
-        justify-content: center;
-        align-items: center;
+        grid-template-rows: 1fr 1.2fr; // Dao sam malo više prostora donjem dijelu za ogroman font
         background-image: url('/images/startpage.png');
         background-size: cover;
         background-position: center;
-        display: grid;
-        grid-template-rows: 1fr 1fr;
         
-        .homePage-mobile-top-half{
+        .homePage-mobile-top-half {
             display: flex;
             justify-content: flex-start;
             align-items: center;
-            margin-bottom: 20%;
-            padding: 0 1rem;
+            padding: 0 1.5rem;
+            margin-top: 5%;
             
-            .homePage-title{
-                font-size: clamp(2.8rem, 7vw, 3.5rem);
-                
-                @media #{$m-phone} {
-                    font-size: clamp(2.5rem, 6.5vw, 3.2rem);
-                }
+            .homePage-title {
+                /* Gornji citat ostaje umeren da ne guši vuka */
+                font-size: clamp(2.8rem, 8vw, 3.8rem);
+                text-align: center;
+                line-height: 1.1;
             }
         }
         
-        .homePage-mobile-bottom-half{
+        .homePage-mobile-bottom-half {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             align-items: center;
-            margin-top: 20%;
-            padding: 0 1rem;
+            margin-bottom: 8%; 
+            padding: 0 0.5rem; // Smanjen padding da font može ići skoro do rubova
             gap: 1.5rem;
             
-            .homePage-title{
-                font-size: clamp(4.5rem, 11vw, 6rem);
+            .homePage-title {
+                /* "POGLAVLJE VLKU" - EKSTREMNO VELIKO */
+                font-size: clamp(6.5rem, 16vw, 10rem); 
+                line-height: 0.85; // Smanjen prored jer je font ogroman
+                letter-spacing: -2px; // Blago zbijena slova za agresivniji izgled
+                text-transform: uppercase;
+                width: 100%;
                 
                 @media #{$m-phone} {
-                    font-size: clamp(4rem, 10vw, 5.5rem);
+                    font-size: clamp(5.5rem, 14vw, 8rem);
                 }
             }
             
             .button {
-                width: clamp(220px, 70vw, 300px);
-                height: clamp(75px, 14vw, 90px);
-                font-size: clamp(1.6rem, 5vw, 2rem);
+                width: clamp(260px, 85vw, 350px);
+                height: clamp(85px, 16vw, 110px);
+                font-size: clamp(2rem, 7vw, 2.5rem);
+                margin-top: 1rem;
                 
                 @media #{$m-phone} {
-                    width: clamp(200px, 65vw, 280px);
-                    height: clamp(70px, 13vw, 85px);
-                    font-size: clamp(1.5rem, 4.5vw, 1.8rem);
+                    width: clamp(220px, 80vw, 300px);
                 }
             }
         }
@@ -104,30 +104,11 @@
     text-align: center;
     line-height: 1.2;
     
-    @media #{$xl-desktop} {
-        font-size: clamp(3rem, 6vw, 6rem);
-    }
-    
-    @media #{$xs-desktop} {
-        font-size: clamp(2.5rem, 5.5vw, 5rem);
-    }
-    
-    @media #{$s-desktop} {
-        font-size: clamp(2.5rem, 5vw, 4.5rem);
-    }
-    
-    @media #{$tablet} {
-        font-size: clamp(2rem, 4.5vw, 4rem);
-    }
-    
-    @media #{$phone} {
-        font-size: clamp(3.5rem, 9vw, 5rem); 
-    }
-    
-    @media #{$m-phone} {
-        font-size: clamp(3rem, 8vw, 4.5rem); 
-    }
-    
+    @media #{$xl-desktop} { font-size: clamp(3rem, 6vw, 6rem); }
+    @media #{$xs-desktop} { font-size: clamp(2.5rem, 5.5vw, 5rem); }
+    @media #{$s-desktop} { font-size: clamp(2.5rem, 5vw, 4.5rem); }
+    @media #{$tablet} { font-size: clamp(2rem, 4.5vw, 4rem); }
+
     .homePage-title-highlight {
         color: var(--color-highlight);
     }
