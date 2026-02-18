@@ -58,8 +58,7 @@ export default function CheckoutPageComponent(){
 
     function computeTotals(){
         const subtotal = items.reduce((s, it) => s + it.price * it.quantity, 0);
-        const cod = 300; 
-        return { subtotal, cod, total: subtotal + cod };
+        return { subtotal };
     }
 
     const toast = useToast();
@@ -205,11 +204,11 @@ export default function CheckoutPageComponent(){
                     <div className='info-item'>
                         <p>Ukupno: <span className='text-highlight'>{totals.subtotal.toFixed(2)}</span> rsd</p>
                     </div>
-                    <div className='info-item'>
-                        <p>Plaćanje pouzećem: <span className='text-highlight'>{totals.cod.toFixed(2)}</span> rsd</p>
+                    <div className='info-item shipping-note'>
+                        <p style={{fontSize: '1.4rem', fontStyle: 'italic', opacity: 0.85}}>*Poštarina se dodatno naplaćuje</p>
                     </div>
-                    <div className='info-item total'> 
-                        <p>Ukupno za naplatu: <span className='text-highlight'>{totals.total.toFixed(2)}</span> rsd</p>
+                    <div className='info-item contact-note'>
+                        <p style={{fontSize: '1.3rem', marginTop: '1rem', opacity: 0.9}}>U slučaju problema kontaktirajte nas na <a href="https://www.instagram.com/poglavlje_vlku/" target="_blank" rel="noopener noreferrer" style={{color: '#d32f2f', textDecoration: 'underline'}}>Instagramu</a></p>
                     </div>
                     {message && <div style={{marginTop:12,color:'#fff'}}>{message}</div>}
                 </div>

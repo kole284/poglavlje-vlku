@@ -31,8 +31,7 @@ export default function CartPageComponent(){
 
     function computeTotals(){
         const subtotal = items.reduce((s, it) => s + it.price * it.quantity, 0);
-        const cod = 300; // flat cash-on-delivery
-        return { subtotal, cod, total: subtotal + cod };
+        return { subtotal };
     }
 
     async function handleCheckout(e: React.FormEvent){
@@ -79,11 +78,10 @@ export default function CartPageComponent(){
                     <div className='info'>
                         <div className='costs'>
                             <p>Ukupno: <span className='price-highlight'>{totals.subtotal.toFixed(2)}</span> rsd</p>
-                            <p>Placanje pouzećem: <span className='price-highlight'>{totals.cod.toFixed(2)}</span> rsd</p>
+                            <p className='shipping-note'>*Poštarina se dodatno naplaćuje</p>
                         </div>
                         <div className='summary'>
-                            <p className='total'>Ukupno za naplatu: <span className='price-highlight'>{totals.total.toFixed(2)}</span> rsd</p>
-                            <Button route="/checkout" text='Nastavi'/>
+                            <Button route="/checkout" text='Nastavi' disabled={items.length === 0}/>
                         </div>
                     </div>
 
