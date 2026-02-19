@@ -1,4 +1,5 @@
 import Button from "../button/Button";
+import DotsComponent from "./DotsComponent";
 import './homePageComponent.scss';
 export default function HomePageComponent() {
   return (
@@ -14,7 +15,7 @@ export default function HomePageComponent() {
         </div>
         
         <div className='homePage-right-side'>
-          <div className="homePage-dots-svg"/>
+          <DotsComponent />
         </div>
       </div>
       

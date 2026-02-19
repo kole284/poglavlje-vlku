@@ -9,7 +9,10 @@
     background-position: center;
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    overflow: hidden;
+    overflow: visible; // Dozvoli da se SVG prikazuje
+    padding-top: clamp(80px, 6vw, 100px); // Ostavi više prostora za navbar
+    padding-bottom: clamp(60px, 4vw, 80px); // Ostavi više prostora za footer
+    box-sizing: border-box;
     
     @media #{$phone} {
         display: none !important; 
@@ -25,13 +28,13 @@
 }
     
 .homePage-right-side {
-    display: block; 
-    background-image: url('/images/dots.svg'); 
-    background-size: 75%;
-    background-position: right center;
-    background-repeat: no-repeat;
-    margin-top: 8%;
-    margin-right: 5%;
+    display: flex;
+    align-items: center; // Vertikalno centriranje
+    justify-content: center; // Centriraj komponentu
+    padding: 0.5rem;
+    overflow: visible; // Omogućava da se sadržaj ne seče
+    max-height: 100%; // Ograniči visinu da stane u dostupan prostor
+    box-sizing: border-box;
 }
 
 .homePage-mobile {
