@@ -1,10 +1,34 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import './dotsComponent.scss';
 
 export default function DotsComponent() {
+  const [isVisible, setIsVisible] = useState(true);
+
+  // Detektuj zoom i sakrij tačkice ako je zoom > 150%
+  useEffect(() => {
+    const checkZoom = () => {
+      // Koristi visualViewport.scale za tačnu detekciju browser zoom-a
+      const scale = window.visualViewport?.scale ?? 1;
+      const zoomPercentage = scale * 100;
+      setIsVisible(zoomPercentage <= 150);
+    };
+
+    checkZoom();
+    
+    // Slušaj i resize i scroll jer zoom može da se detektuje kroz oba
+    window.addEventListener('resize', checkZoom);
+    window.visualViewport?.addEventListener('resize', checkZoom);
+    
+    return () => {
+      window.removeEventListener('resize', checkZoom);
+      window.visualViewport?.removeEventListener('resize', checkZoom);
+    };
+  }, []);
+
   // Tačne koordinate tačkica iz originalnog SVG-a sa pravilnim redosledom
-  const dots = [
+  const dots: Array<{ text: string; dotX: number; dotY: number; textX: number; textY: number; align: 'start' | 'end' }> = [
     { text: 'ŽIVOT', dotX: 175.127, dotY: 12.6632, textX: 125, textY: 15, align: 'end' },
     { text: 'JE', dotX: 341.641, dotY: 69.9183, textX: 370, textY: 72, align: 'start' },
     { text: 'IGRA', dotX: 89.3379, dotY: 92.0327, textX: 40, textY: 95, align: 'end' },
@@ -15,6 +39,8 @@ export default function DotsComponent() {
     { text: 'PAMETNO', dotX: 228.248, dotY: 390.123, textX: 265, textY: 393, align: 'start' },
     { text: 'SPOJITI', dotX: 85.9112, dotY: 444.955, textX: 40, textY: 448, align: 'end' }
   ];
+
+  if (!isVisible) return null;
 
   return (
     <div className="dots-component">
