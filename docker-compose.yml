@@ -30,8 +30,6 @@ services:
       - ./frontend/.env.production
     environment:
       - NODE_ENV=production
-      # Internal Docker network communication
-      - NEXT_PUBLIC_API_URL=http://backend:5002/api
     depends_on:
       - backend
     restart: unless-stopped
