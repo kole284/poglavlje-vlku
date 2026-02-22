@@ -1,6 +1,8 @@
 # Build stage
 FROM node:20-alpine AS build
 WORKDIR /app
+# Ensure Next.js loads production env during build
+ENV NODE_ENV=production
 
 # Copy package files
 COPY package*.json ./
