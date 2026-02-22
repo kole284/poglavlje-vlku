@@ -43,7 +43,7 @@ export default function BooksPageComponent(){
         const candidates: string[] = [];
         
         // 1. Ako si postavio nešto u .env.local
-        if (API_BASE) candidates.push(`${API_BASE}/api/books`);
+        if (API_BASE) candidates.push(`${API_BASE}/books`);
 
         if (typeof window !== 'undefined') {
             const host = window.location.hostname;

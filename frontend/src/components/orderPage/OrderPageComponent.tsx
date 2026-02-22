@@ -23,7 +23,7 @@ export default function OrderPageComponent(){
 
     async function fetchBooks(){
         try{
-            const res = await fetch(`${API_BASE}/api/books`);
+            const res = await fetch(`${API_BASE}/books`);
             const data = await res.json();
             setBooks(data || []);
         }catch(err){
