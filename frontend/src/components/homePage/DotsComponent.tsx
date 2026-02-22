@@ -6,39 +6,38 @@ import './dotsComponent.scss';
 export default function DotsComponent() {
   const [isVisible, setIsVisible] = useState(true);
 
-  // Detektuj zoom i sakrij tačkice ako je zoom > 150%
   useEffect(() => {
     const checkZoom = () => {
-      // Koristi visualViewport.scale za tačnu detekciju browser zoom-a
       const scale = window.visualViewport?.scale ?? 1;
-      const zoomPercentage = scale * 100;
-      setIsVisible(zoomPercentage <= 150);
+      setIsVisible(scale * 100 <= 150);
     };
-
     checkZoom();
-    
-    // Slušaj i resize i scroll jer zoom može da se detektuje kroz oba
     window.addEventListener('resize', checkZoom);
     window.visualViewport?.addEventListener('resize', checkZoom);
-    
     return () => {
       window.removeEventListener('resize', checkZoom);
       window.visualViewport?.removeEventListener('resize', checkZoom);
     };
   }, []);
 
-  // Tačne koordinate tačkica iz originalnog SVG-a sa pravilnim redosledom
   const dots: Array<{ text: string; dotX: number; dotY: number; textX: number; textY: number; align: 'start' | 'end' }> = [
-    { text: 'ŽIVOT', dotX: 175.127, dotY: 12.6632, textX: 125, textY: 15, align: 'end' },
-    { text: 'JE', dotX: 341.641, dotY: 69.9183, textX: 370, textY: 72, align: 'start' },
-    { text: 'IGRA', dotX: 89.3379, dotY: 92.0327, textX: 40, textY: 95, align: 'end' },
-    { text: 'TAČKICA', dotX: 249.02, dotY: 165.041, textX: 280, textY: 168, align: 'start' },
-    { text: 'SAMO', dotX: 125.071, dotY: 225.022, textX: 75, textY: 228, align: 'end' },
-    { text: 'IH', dotX: 297.714, dotY: 255.619, textX: 330, textY: 258, align: 'start' },
-    { text: 'TREBA', dotX: 67.1829, dotY: 302.877, textX: 25, textY: 305, align: 'end' },
-    { text: 'PAMETNO', dotX: 228.248, dotY: 390.123, textX: 265, textY: 393, align: 'start' },
-    { text: 'SPOJITI', dotX: 85.9112, dotY: 444.955, textX: 40, textY: 448, align: 'end' }
+    { text: 'ŽIVOT',    dotX: 175.127, dotY: 12.6632,  textX: 125, textY: 15,  align: 'end' },
+    { text: 'JE',       dotX: 341.641, dotY: 69.9183,  textX: 370, textY: 72,  align: 'start' },
+    { text: 'IGRA',     dotX: 89.3379, dotY: 92.0327,  textX: 40,  textY: 95,  align: 'end' },
+    { text: 'TAČKICA',  dotX: 249.02,  dotY: 165.041,  textX: 280, textY: 168, align: 'start' },
+    { text: 'SAMO',     dotX: 125.071, dotY: 225.022,  textX: 75,  textY: 228, align: 'end' },
+    { text: 'IH',       dotX: 297.714, dotY: 255.619,  textX: 330, textY: 258, align: 'start' },
+    { text: 'TREBA',    dotX: 67.1829, dotY: 302.877,  textX: 25,  textY: 305, align: 'end' },
+    { text: 'PAMETNO',  dotX: 228.248, dotY: 390.123,  textX: 265, textY: 393, align: 'start' },
+    { text: 'SPOJITI',  dotX: 85.9112, dotY: 444.955,  textX: 40,  textY: 448, align: 'end' },
   ];
+
+  // Svaka linija spaja dots[i] → dots[i+1]
+  // Delay: tačkica i se pojavljuje na i*0.3s
+  //        linija i→i+1 kreće nakon što se tačkica i+1 pojavi = (i+1)*0.3s + 0.1s
+  const DOT_INTERVAL = 0.3;   // razmak između pojave tačkica
+  const DOT_DURATION = 0.4;   // trajanje fadeInDot animacije
+  const LINE_DELAY_AFTER_DOT = 0.1; // čekanje nakon pojave druge tačke
 
   if (!isVisible) return null;
 
@@ -55,42 +54,54 @@ export default function DotsComponent() {
           </filter>
         </defs>
 
-        {/* Connecting lines - direkto iz originalnog SVG-a */}
+        {/* Connecting lines - apsolutne koordinate, od gornje ka donjoj tački */}
         <g className="dots-lines">
-          <path d="M239.486 168.07L134.775 222.255" stroke="white" strokeWidth="1"/>
-          <line y1="-0.5" x2="166.011" y2="-0.5" transform="matrix(0.940922 0.338623 -0.413932 0.910308 175.11 12.4165)" stroke="white" strokeWidth="1"/>
-          <line y1="-0.5" x2="241.673" y2="-0.5" transform="matrix(-0.997754 0.0669913 -0.084531 -0.996421 341.424 75.827)" stroke="white" strokeWidth="1"/>
-          <line y1="-0.5" x2="175.342" y2="-0.5" transform="matrix(0.909152 0.416465 -0.500933 0.865486 80.0735 92.0171)" stroke="white" strokeWidth="1"/>
-          <line y1="-0.5" x2="155.535" y2="-0.5" transform="matrix(0.985202 0.171398 -0.21469 0.976682 134.606 228.052)" stroke="white" strokeWidth="1"/>
-          <line y1="-0.5" x2="215.658" y2="-0.5" transform="matrix(-0.982125 0.188231 -0.235358 -0.971909 288.52 258.951)" stroke="white" strokeWidth="1"/>
-          <line y1="-0.5" x2="163.869" y2="-0.5" transform="matrix(0.876913 0.480649 -0.569344 0.8221 75.3555 308.027)" stroke="white" strokeWidth="1"/>
-          <line y1="-0.5" x2="133.732" y2="-0.5" transform="matrix(-0.942126 0.335259 -0.410079 -0.91205 220.416 395.273)" stroke="white" strokeWidth="1"/>
+          {dots.slice(0, -1).map((dot, i) => {
+            const next = dots[i + 1];
+            // Linija krece kada se pojavi sledeca tackica
+            const delay = (i + 1) * DOT_INTERVAL + DOT_DURATION + LINE_DELAY_AFTER_DOT;
+            return (
+              <line
+                key={i}
+                pathLength="1"
+                x1={dot.dotX}
+                y1={dot.dotY}
+                x2={next.dotX}
+                y2={next.dotY}
+                stroke="white"
+                strokeWidth="1"
+                style={{ animationDelay: `${delay}s` }}
+              />
+            );
+          })}
         </g>
 
         {/* Dots and labels */}
-        {dots.map((dot, index) => (
-          <g key={index} className="dot-group" data-index={index}>
-            {/* Red dot */}
-            <ellipse 
-              cx={dot.dotX} 
-              cy={dot.dotY} 
-              rx="10" 
-              ry="9" 
-              className="red-dot"
-            />
-            
-            {/* Label */}
-            <text
-              x={dot.textX}
-              y={dot.textY}
-              textAnchor={dot.align}
-              dominantBaseline="middle"
-              className="dot-label"
-            >
-              {dot.text}
-            </text>
-          </g>
-        ))}
+        {dots.map((dot, index) => {
+          const dotDelay = index * DOT_INTERVAL;
+          return (
+            <g key={index} className="dot-group" data-index={index}>
+              <ellipse
+                cx={dot.dotX}
+                cy={dot.dotY}
+                rx="10"
+                ry="9"
+                className="red-dot"
+                style={{ animationDelay: `${dotDelay}s` }}
+              />
+              <text
+                x={dot.textX}
+                y={dot.textY}
+                textAnchor={dot.align}
+                dominantBaseline="middle"
+                className="dot-label"
+                style={{ animationDelay: `${dotDelay + 0.1}s` }}
+              >
+                {dot.text}
+              </text>
+            </g>
+          );
+        })}
       </svg>
     </div>
   );

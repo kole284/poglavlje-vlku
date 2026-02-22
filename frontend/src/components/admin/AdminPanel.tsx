@@ -32,6 +32,46 @@ export default function AdminPanel() {
     if (auth) fetchBooks();
   }, [auth]);
 
+  // Ako je admin prijavljen — odjavi ga pri navigaciji ili refresh-u
+  useEffect(() => {
+    if (!auth || typeof window === 'undefined') return;
+
+    function doLogout() {
+      localStorage.removeItem('admin-token');
+      setAuth(false);
+      setMessage('Odjavljeni ste.');
+    }
+
+    const onBeforeUnload = () => doLogout();
+    const onPopState = () => doLogout();
+
+    const origPush = history.pushState;
+    const origReplace = history.replaceState;
+
+    history.pushState = function (...args: any[]) {
+      // logout on client-side navigations
+      const ret = origPush.apply(this, args as any);
+      doLogout();
+      return ret;
+    };
+
+    history.replaceState = function (...args: any[]) {
+      const ret = origReplace.apply(this, args as any);
+      doLogout();
+      return ret;
+    };
+
+    window.addEventListener('beforeunload', onBeforeUnload);
+    window.addEventListener('popstate', onPopState);
+
+    return () => {
+      history.pushState = origPush;
+      history.replaceState = origReplace;
+      window.removeEventListener('beforeunload', onBeforeUnload);
+      window.removeEventListener('popstate', onPopState);
+    };
+  }, [auth]);
+
   // Dobavljanje JWT tokena iz localStorage
   function getToken(): string | null {
     if (typeof window === 'undefined') return null;

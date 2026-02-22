@@ -4,7 +4,8 @@ import "./styles/globals.scss";
 import BurgerMenu from "@/components/burgerMenu/BurgerMenu";
 import Navbar from "@/components/navbar/Navbar";
 import ToastProvider from '@/components/toast/ToastProvider';
-import Footer from '@/components/footer/Footer'; //
+import Footer from '@/components/footer/Footer';
+import ConsoleEasterEgg from '@/components/ConsoleEasterEgg';
 
 const bebasNeue = Bebas_Neue({ 
   weight: ['400'],
@@ -25,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${bebasNeue.variable}`}>
       <body>
+        <ConsoleEasterEgg />
         <ToastProvider>
           <BurgerMenu />
           <Navbar />
