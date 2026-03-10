@@ -16,6 +16,9 @@ const bebasNeue = Bebas_Neue({
 export const metadata: Metadata = {
   title: "Poglavlje Vlku",
   description: "Zvanični web shop Stefana Vlkua. Knjige domaćeg autora — naručite online i primite na kućnu adresu.",
+  alternates: {
+    canonical: "https://poglavljevlku.rs",
+  },
 };
 
 export default function RootLayout({
