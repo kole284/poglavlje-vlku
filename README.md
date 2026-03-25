@@ -238,18 +238,6 @@ The backend service uses environment variables for sensitive or environment-spec
 
 The presence of `auto-fix-nginx.sh` suggests that Nginx is intended for use in production deployments, likely acting as a reverse proxy, load balancer, or for serving static files. This script might automate the configuration of Nginx for the `poglavlje-vlku` application. Further details on Nginx setup would typically be provided in a separate deployment guide.
 
-## Contributing Guidelines
-
-We welcome contributions to `poglavlje-vlku`! If you'd like to contribute, please follow these steps:
-
-1.  **Fork the repository.**
-2.  **Create a new branch** for your feature or bug fix: `git checkout -b feature/your-feature-name`.
-3.  **Make your changes**, ensuring they adhere to the existing code style.
-4.  **Write clear, concise commit messages.**
-5.  **Test your changes thoroughly.**
-6.  **Push your branch** to your forked repository.
-7.  **Open a Pull Request** to the `main` branch of the original repository, describing your changes and their benefits.
-
 ## License Information
 
 This project currently does not have an explicit license specified. Please contact the repository owner, kole284, for licensing information.
