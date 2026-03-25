@@ -36,3 +36,16 @@ Thumbs.db
 # Editor files
 .vscode/
 .idea/
+
+# Build artifacts
+**/bin/
+**/obj/
+frontend/.next/
+frontend/node_modules/
+out/
+
+# Runtime files
+*.pid
+backend/books.db-shm
+backend/books.db-wal
+backend/logs/
